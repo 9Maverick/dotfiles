@@ -1,0 +1,11 @@
+#blerc
+
+#ble-bind
+
+#ble-face
+ble-face command_directory='fg=blue'
+ble-face filename_directory='fg=blue'
+#ble-face auto_complete='fg=white,reverse'
+ble-face cmdinfo_cd_cdpath='fg=blue,bg=green'
+ble-face command_function='fg=purple'
+ble-face filename_directory_sticky='fg=white,bg=blue,underline'
