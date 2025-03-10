@@ -75,17 +75,19 @@ cpp() {
 
 LAST_REPO="" # Last repository user visited
 
-clear() {
-  # If user goes into git repository clean everything and show repo info
+fetch() {
   git rev-parse 2>/dev/null # check if you are in a git repository without dumping the output to the screen [1]
   if [ $? -eq 0 ]; then     # if return value of previous command is 0 then you are
-    command clear
     onefetch
   # Or show system info
   else
-    command clear
     fastfetch
   fi
+}
+
+clear() {
+  command clear
+  fetch
 }
 
 # Automatically do an ls after each cd, z, or zoxide
@@ -115,27 +117,27 @@ cd() {
 }
 
 # Colored Man Pages
-man() {
-  LESS_TERMCAP_md=$'\e[01;31m' \
-    LESS_TERMCAP_me=$'\e[0m' \
-    LESS_TERMCAP_us=$'\e[01;32m' \
-    LESS_TERMCAP_ue=$'\e[0m' \
-    LESS_TERMCAP_so=$'\e[45;93m' \
-    LESS_TERMCAP_se=$'\e[0m'
 
-  local -x PAGER=$(type -P less)
-
-  command man "$@"
-}
+#########################################
+# Colorcodes:
+# Black       0;30     Dark Gray     1;30
+# Red         0;31     Light Red     1;31
+# Green       0;32     Light Green   1;32
+# Brown       0;33     Yellow        1;33
+# Blue        0;34     Light Blue    1;34
+# Purple      0;35     Light Purple  1;35
+# Cyan        0;36     Light Cyan    1;36
+# Light Gray  0;37     White         1;37
+#########################################
 
 function colored {
-  local -x LESS_TERMCAP_mb=$_omb_term_red
-  local -x LESS_TERMCAP_md=$_omb_term_bold_red
-  local -x LESS_TERMCAP_me=$_omb_term_reset
-  local -x LESS_TERMCAP_so=$_omb_term_bold_yellow
-  local -x LESS_TERMCAP_se=$_omb_term_reset
-  local -x LESS_TERMCAP_us=$_omb_term_green
-  local -x LESS_TERMCAP_ue=$_omb_term_reset
+  local -x LESS_TERMCAP_mb=$'\e[0;31'   # red
+  local -x LESS_TERMCAP_md=$'\e[1;31m'  # bold_red
+  local -x LESS_TERMCAP_me=$'\e[0m'     # reset
+  local -x LESS_TERMCAP_so=$'\e[45;93m' # bold_yellow
+  local -x LESS_TERMCAP_se=$'\e[0m'     # reset
+  local -x LESS_TERMCAP_us=$'\e[1;32m'  # green
+  local -x LESS_TERMCAP_ue=$'\e[0;34m'  # blue
 
   # Prefer `less` whenever available, since we specifically configured
   # environment for it.
@@ -146,11 +148,11 @@ function colored {
 }
 
 # Wrapper for man to colorize the output.
-#function man {
-#  colored "$FUNCNAME" "$@"
-#}
+function man {
+  colored "$FUNCNAME" "$@"
+}
 
-fastfetch
+fetch
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(atuin init bash)"
