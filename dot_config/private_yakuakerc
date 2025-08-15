@@ -1,0 +1,7 @@
+[Dialogs]
+FirstRun=false
+
+[Window]
+Height=60
+KeepOpen=false
+Width=60
