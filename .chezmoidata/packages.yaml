@@ -1,0 +1,20 @@
+packages:
+  brew:
+    level0:
+    - atuin
+    - starship
+    - zoxide
+    - speedtest-cli
+    - bat
+    - lsd
+    - trash-cli
+    - dust
+    - cowsay
+    - fortune
+    - lolcat
+    - fastfetch
+    - onefetch
+    - nvim
+    - fzf
+    - lazydocker
+    - lazygit

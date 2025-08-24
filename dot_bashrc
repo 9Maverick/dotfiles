@@ -30,7 +30,7 @@ unset rc
 export EDITOR=nvim
 export VISUAL=nvim
 
-# include .bashrc_aliases if it exists
+# include .bashrc_extra if it exists
 if [ -f $HOME/.bashrc_extra ]; then
   . $HOME/.bashrc_extra
 fi

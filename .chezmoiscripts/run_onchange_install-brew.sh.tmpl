@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if ! command -v brew >/dev/null 2>&1; then
+  echo "brew package manager could not be found, starting installation"
+  NONINTERACTIVE=1 /bin/bash -sc "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+brew bundle --file=/dev/stdin <<EOF
+{{ range .packages.brew.level0 -}}
+brew {{ . | quote }}
+{{ end -}}
+EOF
