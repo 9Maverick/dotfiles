@@ -1,10 +1,5 @@
 #!/bin/bash
 
-echo
-echo "TEST LEVEL:"
-echo {{ .chezmoi.level | quote}}
-echo
-
 if ! command -v brew >/dev/null 2>&1; then
   echo
   echo ">>>brew package manager could not be found, starting installation"
