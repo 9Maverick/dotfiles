@@ -1,8 +1,8 @@
 {{- $level := promptStringOnce . "level" "System level" -}}
 
 [data]
-{{- if ($level) -}}
-  level = {{- $level | quote}}
-{{- else -}}
+{{- if ($level) }}
+  level = {{ $level | quote}}
+{{ else }}
   level = 0
 {{- end -}}
