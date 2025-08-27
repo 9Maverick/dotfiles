@@ -1,12 +1,12 @@
 format = """
-[](#3B4252)\
+[](system_background)\
 $os\
 $hostname\
-[](bg:#434C5E fg:#3B4252)\
+[](bg:user_background fg:system_background)\
 $username\
-[](fg:#434C5E bg:#4C566A)\
+[](fg:user_background bg:loaction_background)\
 $directory\
-[](fg:#4C566A bg:white)\
+[](fg:loaction_background bg:white)\
 $git_branch\
 $git_state\
 $git_status\
@@ -19,7 +19,26 @@ $docker_context\
 command_timeout = 5000
 
 # A continuation prompt that displays two filled-in arrows
+
+
+{{- if eq .level 0}}
+  palette = "level-0"
+{{else}}
+  palette = "level-1"
+{{- end }}
+
 continuation_prompt = '▶▶ '
+
+[palettes.level-0]
+system_background = "black"
+user_background = "black"
+loaction_background = "black"
+
+[palettes.level-1]
+system_background = "#3B4252"
+user_background = "#434C5E"
+loaction_background = "#4C566A"
+
 
 [os]
 style = "bg:#3B4252"
