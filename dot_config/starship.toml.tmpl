@@ -1,3 +1,25 @@
+{{- if eq .level 0}}
+palette = "level-0"
+
+format = """
+[](system_background)\
+$hostname\
+[](bg:user_background fg:system_background)\
+$username\
+[](fg:user_background bg:loaction_background)\
+$directory\
+[](fg:loaction_background bg:white)\
+$git_branch\
+$git_state\
+$git_status\
+$git_metrics\
+[](fg:white bg:blue)\
+$docker_context\
+[ ](fg:blue)\
+"""
+{{else}}
+palette = "level-1" 
+
 format = """
 [](system_background)\
 $os\
@@ -10,22 +32,16 @@ $directory\
 $git_branch\
 $git_state\
 $git_status\
-$git_metricsics\
+$git_metrics\
 [](fg:white bg:blue)\
 $docker_context\
 [ ](fg:blue)\
 """
+{{- end }}
 
 command_timeout = 5000
 
 # A continuation prompt that displays two filled-in arrows
-
-
-{{- if eq .level 0}}
-  palette = "level-0"
-{{else}}
-  palette = "level-1"
-{{- end }}
 
 continuation_prompt = '▶▶ '
 
