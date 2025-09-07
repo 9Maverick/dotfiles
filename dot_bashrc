@@ -53,6 +53,8 @@ alias vim="nvim"
 alias fortune="fortune | cowsay -f vader"
 alias loltune="fortune | lolcat"
 
+alias reset-level="chezmoi apply --init"
+
 # Copy file with a progress bar
 cpp() {
   set -e
@@ -152,8 +154,6 @@ function man {
   colored "$FUNCNAME" "$@"
 }
 
-fetch
-
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(atuin init bash)"
 eval "$(starship init bash)"
@@ -162,3 +162,5 @@ eval "$(zoxide init bash)"
 [[ ${BLE_VERSION-} ]] && ble-attach
 
 eval "$(thefuck --alias)"
+
+fetch

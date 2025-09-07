@@ -1,4 +1,4 @@
-{{- $level := promptIntOnce . "level" "System level" -}}
+{{- $level := promptInt "System level" -}}
 
 [data]
 {{- if ($level) }}
