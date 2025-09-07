@@ -159,8 +159,8 @@ eval "$(atuin init bash)"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
+fetch
+
 [[ ${BLE_VERSION-} ]] && ble-attach
 
 eval "$(thefuck --alias)"
-
-fetch
