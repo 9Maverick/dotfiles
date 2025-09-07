@@ -2,20 +2,19 @@
 palette = "level-0"
 
 format = """
-[](system_background)\
 $hostname\
-[](bg:user_background fg:system_background)\
+[→](bg:user_background fg:system_background)\
 $username\
-[](fg:user_background bg:loaction_background)\
+[→](fg:user_background bg:loaction_background)\
 $directory\
-[](fg:loaction_background bg:white)\
+[→](fg:loaction_background bg:white)\
 $git_branch\
 $git_state\
 $git_status\
 $git_metrics\
-[](fg:white bg:blue)\
+[→](fg:white bg:blue)\
 $docker_context\
-[ ](fg:blue)\
+[→ ](fg:blue)\
 """
 {{else}}
 palette = "level-1" 
@@ -64,7 +63,7 @@ disabled = false
 [hostname]
 ssh_symbol = "  "
 ssh_only = false
-style = "bg:#3B4252"
+style = "bg:system_background"
 format = '[$ssh_symbol](bold blue bg:#3B4252)[$hostname ](bold red bg:#3B4252)'
 disabled = false
 
