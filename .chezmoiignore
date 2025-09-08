@@ -1,3 +1,10 @@
 README.md
 
-.config/Trolltech.conf
+{{- if lt .level 2}}
+  .config/yakuakerc
+{{- end -}}
+
+{{- if lt .level 3}}
+  .config/Trolltech.conf
+{{- end -}}
+
