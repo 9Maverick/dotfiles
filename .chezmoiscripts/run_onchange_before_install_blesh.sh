@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! command -v brew >/dev/null 2>&1; then
+if ! command -v ble >/dev/null 2>&1; then
   curl -L https://github.com/akinomyoga/ble.sh/releases/download/nightly/ble-nightly.tar.xz | tar xJf -
   bash ble-nightly/ble.sh --install ~/.local/share
   rm -fr ble-nightly
