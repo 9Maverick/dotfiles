@@ -12,7 +12,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 echo
 
 xargs flatpak install -y </dev/stdin <<EOF
-{{ range .packages.flatpak.level3 -}}
+{{ range .packages.flatpak.level2 -}}
 {{ . }}
 {{ end -}}
 EOF

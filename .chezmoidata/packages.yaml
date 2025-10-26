@@ -20,7 +20,7 @@ packages:
     - lazydocker
     - lazygit
   flatpak:
-    level3:
+    level2:
     - com.usebottles.bottles
     - com.obsproject.Studio
     - md.obsidian.Obsidian
