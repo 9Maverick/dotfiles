@@ -15,38 +15,42 @@ brew doctor
 echo
 
 brew bundle --file=/dev/stdin <<EOF
-{{ range .packages.brew.brews.level0 -}}
+{{if (and (ge .level 0) (hasKey .packages.brew.brews "level0")}}
+  {{ range .packages.brew.brews.level0 -}}
 brew {{ . | quote }}
-{{ end -}}
-{{- if ge .level 1}}
+  {{ end -}}
+{{ end }}
+{{if (and (ge .level 1) (hasKey .packages.brew.brews "level1")}}
   {{ range .packages.brew.brews.level1 -}}
 brew {{ . | quote }}
   {{ end -}}
 {{ end }}
-{{- if ge .level 2}}
+{{if (and (ge .level 2) (hasKey .packages.brew.brews "level2")}}
   {{ range .packages.brew.brews.level2 -}}
 brew {{ . | quote }}
   {{ end -}}
 {{ end }}
-{{- if ge .level 3}}
+{{if (and (ge .level 3) (hasKey .packages.brew.brews "level3")}}
   {{ range .packages.brew.brews.level3 -}}
 brew {{ . | quote }}
   {{ end -}}
 {{ end }}
-{{ range .packages.brew.casks.level0 -}}
+{{if (and (ge .level 0) (hasKey .packages.brew.casks "level0")}}
+  {{ range .packages.brew.casks.level0 -}}
 cask {{ . | quote }}
-{{ end -}}
-{{- if ge .level 1}}
+  {{ end -}}
+{{ end }}
+{{if (and (ge .level 1) (hasKey .packages.brew.casks "level1")}}
   {{ range .packages.brew.casks.level1 -}}
 cask {{ . | quote }}
   {{ end -}}
 {{ end }}
-{{- if ge .level 2}}
+{{if (and (ge .level 2) (hasKey .packages.brew.casks "level2")}}
   {{ range .packages.brew.casks.level2 -}}
 cask {{ . | quote }}
   {{ end -}}
 {{ end }}
-{{- if ge .level 3}}
+{{if (and (ge .level 3) (hasKey .packages.brew.casks "level3")}}
   {{ range .packages.brew.casks.level3 -}}
 cask {{ . | quote }}
   {{ end -}}
