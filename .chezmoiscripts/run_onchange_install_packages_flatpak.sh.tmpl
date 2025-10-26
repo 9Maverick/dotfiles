@@ -15,14 +15,14 @@ echo
 
 xargs flatpak install -y </dev/stdin <<EOF
 {{if (and (ge .level 2) (hasKey .packages.flatpak "level2"))}}
-{{ range .packages.flatpak.level2 -}}
-{{ . }}
-{{- end -}}
+  {{ range .packages.flatpak.level2 -}}
+    {{ . }}
+  {{ end -}}
 {{- end -}}
 {{if (and (ge .level 3) (hasKey .packages.flatpak "level3"))}}
-{{ range .packages.flatpak.level3 -}}
-{{ . }}
-{{- end -}}
+  {{ range .packages.flatpak.level3 -}}
+    {{ . }}
+  {{ end -}}
 {{- end -}}
 EOF
 {{- end -}}
