@@ -11,3 +11,18 @@ fi
 {{ range .packages.native.level0 -}}
 packinstall {{ . }}
 {{ end -}}
+{{- if ge .level 1}}
+{{ range .packages.native.level1 -}}
+packinstall {{ . }}
+{{ end -}}
+{{ end }}
+{{- if ge .level 2}}
+{{ range .packages.native.level2 -}}
+packinstall {{ . }}
+{{ end -}}
+{{ end }}
+{{- if ge .level 3}}
+{{ range .packages.native.level3 -}}
+packinstall {{ . }}
+{{ end -}}
+{{ end }}

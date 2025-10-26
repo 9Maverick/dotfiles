@@ -1,24 +1,28 @@
 packages:
   brew:
-    level0:
-    - atuin
-    - docker
-    - starship
-    - zoxide
-    - speedtest-cli
-    - bat
-    - lsd
-    - trash-cli
-    - dust
-    - cowsay
-    - fortune
-    - lolcat
-    - fastfetch
-    - onefetch
-    - nvim
-    - fzf
-    - lazydocker
-    - lazygit
+    brews:
+      level0:
+      - atuin
+      - docker
+      - starship
+      - zoxide
+      - speedtest-cli
+      - bat
+      - lsd
+      - trash-cli
+      - dust
+      - cowsay
+      - fortune
+      - lolcat
+      - fastfetch
+      - onefetch
+      - nvim
+      - fzf
+      - lazydocker
+      - lazygit
+    casks:
+      level2:
+      - font-hack-nerd-font
   flatpak:
     level2:
     - com.usebottles.bottles
