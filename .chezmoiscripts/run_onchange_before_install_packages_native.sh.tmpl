@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if ! command -v packinstall >/dev/null 2>&1; then
+  echo
+  echo ">>>packinstall could not be found, starting installation"
+  echo
+  curl -fsSL https://raw.githubusercontent.com/9Maverick/Packinstall/main/install.sh | bash
+  echo
+fi
+
+{{ range .packages.native.level0 -}}
+packinstall {{ . }}
+{{ end -}}

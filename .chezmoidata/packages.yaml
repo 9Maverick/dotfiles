@@ -2,6 +2,7 @@ packages:
   brew:
     level0:
     - atuin
+    - docker
     - starship
     - zoxide
     - speedtest-cli
@@ -18,3 +19,6 @@ packages:
     - fzf
     - lazydocker
     - lazygit
+  native:
+    level0:
+    - git
