@@ -13,15 +13,15 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 echo
 
 xargs flatpak install -y </dev/stdin <<EOF
-{{if (and (ge .level 2) (hasKey .packages.native "level2"))}}
+{{if (and (ge .level 2) (hasKey .packages.flatpak "level2"))}}
 {{ range .packages.flatpak.level2 -}}
 {{ . }}
 {{- end -}}
-{{- end }}
-{{if (and (ge .level 3) (hasKey .packages.native "level3"))}}
+{{- end -}}
+{{if (and (ge .level 3) (hasKey .packages.flatpak "level3"))}}
 {{ range .packages.flatpak.level3 -}}
 {{ . }}
 {{- end -}}
-{{- end }}
+{{- end -}}
 EOF
 {{- end -}}
