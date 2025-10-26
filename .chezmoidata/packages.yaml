@@ -19,6 +19,16 @@ packages:
     - fzf
     - lazydocker
     - lazygit
+  flatpak:
+    level3:
+    - com.usebottles.bottles
+    - com.obsproject.Studio
+    - md.obsidian.Obsidian
+    - com.valvesoftware.Steam
+    - com.vscodium.codium
+    - dev.vencord.Vesktop
+    - org.kde.yakuake
+    - app.zen_browser.zen
   native:
     level0:
     - git

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if ! command -v flatpak >/dev/null 2>&1; then
+  echo
+  echo ">>>flatpak package manager could not be found, starting installation"
+  echo
+  packinstall flatpak
+  echo
+fi
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+echo
+
+xargs flatpak install -y </dev/stdin <<EOF
+{{ range .packages.flatpak.level3 -}}
+{{ . }}
+{{ end -}}
+EOF
