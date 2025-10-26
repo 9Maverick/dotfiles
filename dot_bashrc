@@ -162,5 +162,3 @@ eval "$(zoxide init bash)"
 fetch
 
 [[ ${BLE_VERSION-} ]] && ble-attach
-
-eval "$(thefuck --alias)"
