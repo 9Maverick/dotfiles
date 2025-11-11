@@ -1,0 +1,17 @@
+{
+    "minimizeToTray": "on",
+    "discordBranch": "stable",
+    "arRPC": "on",
+    "customTitleBar": false,
+    "splashColor": "rgb(239, 239, 240)",
+    "splashBackground": "rgb(40, 44, 52)",
+    "openLinksWithElectron": false,
+    "hardwareAcceleration": true,
+    "spellCheckLanguages": [
+        "uk",
+        "uk-UA",
+        "en-US"
+    ],
+    "hardwareVideoAcceleration": true,
+    "disableMinSize": true
+}
