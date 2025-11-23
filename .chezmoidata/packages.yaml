@@ -1,4 +1,10 @@
 packages:
+  native:
+    level0:
+    - git
+    - file
+    - curl
+    - procps
   brew:
     brews:
       level0:
@@ -21,7 +27,7 @@ packages:
       - lazydocker
       - lazygit
     casks:
-      level2:
+      level1:
       - font-hack-nerd-font
   flatpak:
     level2:
@@ -31,8 +37,6 @@ packages:
     - com.valvesoftware.Steam
     - com.vscodium.codium
     - dev.vencord.Vesktop
-    - org.kde.yakuake
     - app.zen_browser.zen
-  native:
-    level0:
-    - git
+    level3:
+    - org.kde.yakuake
