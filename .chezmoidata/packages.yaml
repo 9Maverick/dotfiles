@@ -5,6 +5,7 @@ packages:
     - file
     - curl
     - procps
+    - gcc
   brew:
     brews:
       level0:
