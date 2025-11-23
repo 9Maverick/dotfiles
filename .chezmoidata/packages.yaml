@@ -8,6 +8,7 @@ packages:
   brew:
     brews:
       level0:
+      - perl
       - atuin
       - docker
       - starship
