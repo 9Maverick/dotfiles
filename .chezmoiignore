@@ -1,10 +1,11 @@
 README.md
 
 {{- if lt .level 2}}
-  .config/yakuakerc
+  .var
 {{- end -}}
 
 {{- if lt .level 3}}
+  .config/yakuakerc
   .config/Trolltech.conf
 {{- end -}}
 
