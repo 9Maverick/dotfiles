@@ -12,20 +12,20 @@ fi
 {{if (and (ge .level 0) (hasKey .packages.native "level0"))}}
 {{ range .packages.native.level0 -}}
 packinstall {{ . }}
-{{- end -}}
+{{ end -}}
 {{- end -}}
 {{if (and (ge .level 1) (hasKey .packages.native "level1"))}}
 {{ range .packages.native.level1 -}}
 packinstall {{ . }}
-{{- end -}}
+{{ end -}}
 {{- end -}}
 {{if (and (ge .level 2) (hasKey .packages.native "level2"))}}
 {{ range .packages.native.level2 -}}
 packinstall {{ . }}
-{{- end -}}
+{{ end -}}
 {{- end -}}
 {{if (and (ge .level 3) (hasKey .packages.native "level3"))}}
 {{ range .packages.native.level3 -}}
 packinstall {{ . }}
-{{- end -}}
+{{ end -}}
 {{- end -}}
