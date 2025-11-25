@@ -26,6 +26,7 @@ packages:
       - onefetch
       - nvim
       - fzf
+      - btop
       - lazydocker
       - lazygit
     casks:
