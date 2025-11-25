@@ -159,6 +159,9 @@ eval "$(atuin init bash)"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
+# Prevent output in non-interactive sessions
+[[ $- == *i* ]] || return
+
 fetch
 
 [[ ${BLE_VERSION-} ]] && ble-attach
