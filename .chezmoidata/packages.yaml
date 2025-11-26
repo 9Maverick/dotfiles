@@ -12,6 +12,7 @@ packages:
       - perl
       - atuin
       - docker
+      - tmux
       - starship
       - zoxide
       - speedtest-cli
