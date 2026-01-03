@@ -17,15 +17,17 @@ fi
 
 sudo dnf swap -y ffmpeg-free ffmpeg --allowerasing
 echo
-sudo dnf update -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 
 VENDOR=$(lspci | grep -oP 'VGA compatible controller: \K\w+')
 
 if [[ "$VENDOR" == "NVIDIA" ]]; then
+  sudo dnf update -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
   sudo dnf install -y libva-nvidia-driver.{i686,x86_64}
 elif [[ "$VENDOR" == "Intel" ]]; then
+  sudo dnf update -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
   sudo dnf install -y intel-media-driver
 elif [[ "$VENDOR" == "Advanced" ]]; then # AMD driver
+  sudo dnf update -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
   sudo dnf swap -y mesa-va-drivers mesa-va-drivers-freeworld
   sudo dnf swap -y mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
   sudo dnf swap -y mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
