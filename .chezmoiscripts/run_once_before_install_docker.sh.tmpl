@@ -1,3 +1,10 @@
 #!/bin/bash
 
-sudo sh -c "$(curl -fsLS get.docker.com)" -- --no-autostart
+if ! command -v docker >/dev/null 2>&1; then
+  echo
+  echo ">>>docker could not be found, starting installation"
+  echo
+  sudo sh -c "$(curl -fsLS get.docker.com)" -- --no-autostart
+  echo
+  sudo usermod -aG docker $USER
+fi
