@@ -8,6 +8,6 @@ README.md
   .config/yakuakerc
   .config/Trolltech.conf
   .config/konsolerc
-  .local/share/konsole/*
+  .local/share/konsole
 {{- end -}}
 
