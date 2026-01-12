@@ -1,0 +1,25 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=main.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+MenuBar=Disabled
+
+[MemorySettings]
+MemoryLimitValue=1024
+
+[Notification Messages]
+CloseAllTabs=true
+
+[SplitView]
+SplitViewVisibility=AlwaysHideSplitHeader
+
+[TabBar]
+TabBarVisibility=AlwaysHideTabBar
+
+[UiSettings]
+ColorScheme=

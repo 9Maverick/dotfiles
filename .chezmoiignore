@@ -7,5 +7,7 @@ README.md
 {{- if lt .level 3}}
   .config/yakuakerc
   .config/Trolltech.conf
+  .config/konsolerc
+  .local/share/konsole/*
 {{- end -}}
 
