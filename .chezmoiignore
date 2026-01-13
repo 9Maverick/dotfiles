@@ -5,9 +5,16 @@ README.md
 {{- end -}}
 
 {{- if lt .level 3}}
-  .config/yakuakerc
-  .config/Trolltech.conf
+  .config/autostart
+  .config/kcminputrc
+  .config/kdeglobals
   .config/konsolerc
+  .config/krunnerrc
+  .config/kwinrc 
+  .config/mimeapps.list
+  .config/spectaclerc
+  .config/Trolltech.conf
+  .config/yakuakerc
   .local/share/konsole
 {{- end -}}
 

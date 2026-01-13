@@ -1,0 +1,26 @@
+[Desktop Action new-private-window]
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen --private-window @@u %u @@
+Name=Open a New Private Window
+
+[Desktop Action new-window]
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen @@u %u @@
+Name=Open a New Window
+
+[Desktop Action profilemanager]
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen --ProfileManager @@u %u @@
+Name=Open the Profile Manager
+
+[Desktop Entry]
+Actions=new-window;new-private-window;profilemanager;
+Categories=Network;WebBrowser;
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen @@u %u @@
+Icon=app.zen_browser.zen
+Keywords=Internet;WWW;Browser;Web;Explorer;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+Name=Zen Browser
+StartupNotify=true
+StartupWMClass=zen
+Terminal=false
+Type=Application
+X-Flatpak=app.zen_browser.zen
+X-MultipleArgs=false

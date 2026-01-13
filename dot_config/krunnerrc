@@ -1,0 +1,11 @@
+[General]
+historyBehavior=ImmediateCompletion
+
+[Plugins]
+krunner_plasma-desktopEnabled=true
+
+[Plugins][Favorites]
+plugins=krunner_services,krunner_systemsettings
+
+[Runners][PIM Contacts Search Runner]
+queryAutocompleter=true
