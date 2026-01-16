@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="299">
+  <name>Magna Mountain Wallpaper</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/2102218</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>19462</downloads>
+  <installedfile>/home/maverick/.local/share/wallpapers/Magna-Mountain-Wallpaper-With-Plasma-Logo.png</installedfile>
+  <id>2102218</id>
+  <releasedate>2026-01-04</releasedate>
+  <summary>&lt;p>Magna Mountain Wallpaper with Plasma Logo and without Plasma Logo&lt;br />&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>____&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;br />&lt;br />Based on: &lt;a href="https://www.uhdpaper.com/2023/05/night-sky-colorful-beautiful-4k-6081k.html">https://www.uhdpaper.com/2023/05/night-sky-colorful-beautiful-4k-6081k.html&lt;/a>&lt;br />&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>&lt;strong>____&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;/strong>&lt;br />&lt;br />Dark Rounded Plasma Theme, Transparent and Blur,   &lt;b>Magna-Dark-Plasma&lt;/b> : &lt;a href="https://www.pling.com/p/2102246/"> Here &lt;/a>&lt;br />&lt;br />Dark Rounded Global Theme, Transparent and Blur,   &lt;b>Magna-Dark-Global&lt;/b> : &lt;a href="https://www.pling.com/p/2102248/"> Here &lt;/a>&lt;/p></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/770x540-4/img/00/00/49/90/47/2102218/1-logo.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/49/90/47/2102218/1-logo.jpg</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTY5ODc0MjExNiwibyI6IjEiLCJzIjoiYmQ1MGY4MzM4MGJlNDBmODA0NDYzYzc5MjhkMzUzN2RkYjdmY2E1NzViMTVkODg3MWUzZmIxY2VmNWM1Yjc4NjlmOWJlNjZhZDg5MjU3OTRlYWRhNWNlYmRmY2QxMzRlYTY4MDQ4NzcwY2EwNTljMTliNDliZTUzNmI2ODZlNmMiLCJ0IjoxNzY3NjE2NjQyLCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgyLjI0In0.cmfrecpFqAx4Qfl4qhII0M60P0LSseDUimXyNx7D3xg/Magna-Mountain-Wallpaper-With-Plasma-Logo.png</payload>
+  <tags>kde,artwork,wallpaper,plasma,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="299">
+  <name>Wings-Wall</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>l4k1</author>
+  <homepage>https://store.kde.org/p/1982061</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>57</rating>
+  <downloads>20099</downloads>
+  <installedfile>/home/maverick/.local/share/wallpapers/Wings-Wall-With-Plasma-Logo.jpg</installedfile>
+  <id>1982061</id>
+  <releasedate>2026-01-02</releasedate>
+  <summary>&lt;p>Wings-Wall  (With KDE Plasma Logo and Without  Logo)&lt;br />&lt;br />Dark Rounded Plasma Theme Wings-Dark-Plasma, which you can download: &lt;a href="https://www.pling.com/p/1982111/"> Here &lt;/a>&lt;/p></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/770x540-4/img/00/00/49/90/47/1982061/logo.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/49/90/47/1982061/logo.jpg</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTY3NTUwNjkxNiwibyI6IjEiLCJzIjoiNTdkODAwYmE5NGE3MjAzMWYzMzZhMTI1YjA4NDI1NmM2MWFmYzdkYzg3MGQxODk1ZjE2YjNlMmYzZTVlMmM4YjgwOTdlNzExOWY1ZDM4OTNmYzY1MDc0MjhlZDhlNjg5YmQzZGZlNmYxMTMzN2E5NjNkMzliMWMyNTQ0OGM2NGMiLCJ0IjoxNzY3NTI2NDE5LCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgyLjI0In0.ySJ_6e2qAJ1Kq9AlF08Kc4-ne10owlZjxTTG73mztUU/Wings-Wall-With-Plasma-Logo.jpg</payload>
+  <tags>wallpaper,kde,plasma,artwork,gplv3,efi</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="299">
+  <name>Nothing1</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/2116657</homepage>
+  <licence></licence>
+  <version>1.1</version>
+  <rating>50</rating>
+  <downloads>68501</downloads>
+  <installedfile>/home/maverick/.local/share/wallpapers/Nothing1/*</installedfile>
+  <id>2116657</id>
+  <releasedate>2025-12-08</releasedate>
+  <summary>&lt;p>Wallpaper for Nothing theme.&lt;br />&lt;br />&lt;a href="https://store.kde.org/p/2116665">https://store.kde.org/p/2116665&lt;/a>&lt;/p></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/770x540-4/img/00/00/43/73/13/2116657/wallpaper1.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/43/73/13/2116657/wallpaper1.jpg</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcyODc2NjU0OSwibyI6IjEiLCJzIjoiNzIwMWQzMzE4NzVhZDBhMDE1Zjc2YjMzYTM5M2NkZDZiYWY3NWE2OWMxNWExMmRiYWY3NGRmNGJjODE0YmMyM2ZlNTAzMTI2Y2M4ZTIyNzE4MTZhYWViNzZlNjI1NGU5M2VmOTQ3ZmI3OTFiNjc4NGIzOTk2MmFhZWFjZjAzNTYiLCJ0IjoxNzY1MjEyMDAxLCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgyLjI0In0.LUwRR-bUiikqzbUUxYFXII6sPbyxAjv-trPG-ceiRmo/Nothing1.tar.gz</payload>
+  <tags>wallpaper,artwork,cc0,plasma,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

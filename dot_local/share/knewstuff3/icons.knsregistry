@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="132">
+  <name>Dracula Icons</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>matheusdev</author>
+  <homepage>https://store.kde.org/p/1541561</homepage>
+  <licence></licence>
+  <version>2</version>
+  <rating>76</rating>
+  <downloads>33352</downloads>
+  <installedfile>/home/maverick/.local/share/icons/dracula-icons-main/*</installedfile>
+  <id>1541561</id>
+  <releasedate>2024-05-26</releasedate>
+  <summary>&lt;p>Dark icons theme for linux desktops&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/61/85/69/1541561/b165b3fd45d7046fd3717217d5e426892a272ba2d180918d5a5b24de46201469b87c.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/61/85/69/1541561/b165b3fd45d7046fd3717217d5e426892a272ba2d180918d5a5b24de46201469b87c.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MjQyMzYyMjIiLCJvIjoiMSIsInMiOiJlNDcwZGJhMGRiMTQzNWRjYTU4YzRmMzNkYjJlZDExYjYxMzAyZjQ5ZTVkN2JmMmNmMmRlOGQzMjgzZDgxNzg2ODE1ZDhlOWQ5NzZhOGJlOTcyODUxYTgzZDBmM2Y5YTU3YjViOTVjMmRkZjk3N2MxMjYxZTlmZmIxYTAxODg3NyIsInQiOjE3MjAxMDU4NTMsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.Y3ExTVS5zS4ZUL6kA_k7cdKRVR40wzxGvBIsgsr2JJ4/main.zip</payload>
+  <tags>budgie,cinnamon,deepin,elementary,gnome,kde,lxde,lxqt,mate,xfce,gplv3,icon-theme,linux,dracula,unix,dark,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="132">
+  <name>Simply Circles Icons</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>ju1464</author>
+  <homepage>https://store.kde.org/p/1277095</homepage>
+  <licence></licence>
+  <version>20200723</version>
+  <rating>87</rating>
+  <downloads>21696</downloads>
+  <installedfile>/home/maverick/.local/share/icons/Simply-Green-Circles/*</installedfile>
+  <installedfile>/home/maverick/.local/share/icons/Simply-Black-Circles/*</installedfile>
+  <installedfile>/home/maverick/.local/share/icons/Simply-Cyan-Circles/*</installedfile>
+  <installedfile>/home/maverick/.local/share/icons/Simply-Blue-Circles/*</installedfile>
+  <installedfile>/home/maverick/.local/share/icons/Simply-Purple-Circles/*</installedfile>
+  <installedfile>/home/maverick/.local/share/icons/Simply-Orange-Circles/*</installedfile>
+  <installedfile>/home/maverick/.local/share/icons/Simply-Red-Circles/*</installedfile>
+  <installedfile>/home/maverick/.local/share/icons/Simply-White-Circles/*</installedfile>
+  <id>1277095</id>
+  <releasedate>2020-07-23</releasedate>
+  <summary>&lt;p>Monochrome icons with some brush strokes of color. &lt;/p>
+
+&lt;p>&lt;b>Modes:&lt;/b>&lt;/p>
+
+&lt;ul>&lt;li>Black&lt;/li>&lt;li>Blue&lt;/li>&lt;li>Cyan&lt;/li>&lt;li>Green&lt;/li>&lt;li>Orange&lt;/li>&lt;li>Purple&lt;/li>&lt;li>Red&lt;/li>&lt;li>White&lt;/li>&lt;/ul>
+
+&lt;p>&lt;b>Installation:&lt;/b>&lt;/p>
+
+&lt;p>Extract file and copy/paste as root in &lt;i>/usr/share/icons/&lt;/i>&lt;/p>
+
+&lt;p>&lt;b>Also available....&lt;/b>&lt;/p>
+
+&lt;p>-MORE COLORS FOR THIS ICON THEME:&lt;/p>
+
+&lt;ul>&lt;li>&lt;a href="https://www.pling.com/p/1337328/">Simply Circles Extra Colors&lt;/a>&lt;/li>&lt;/ul>
+
+&lt;p>-SIMPLY CIRCLES GTK/GNOME SHELL THEMES:&lt;/p>
+
+&lt;ul>&lt;li>&lt;a href="https://www.pling.com/p/1308970/">Simply Circles&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1308971/">Simply Circles Blue&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1308994/">Simply Circles Cyan&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1308995/">Simply Circles Green&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1308996/">Simply Circles Orange&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1308997/">Simply Circles Purple&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1308998/">Simply Circles Red&lt;/a>&lt;/li>&lt;/ul>
+
+&lt;p>-SIMPLY CIRCLES KDE PLASMA DESKTOPS:&lt;/p>
+
+&lt;ul>&lt;li>&lt;a href="https://www.pling.com/p/1317728/">Simply Circles&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1317385/">Simply Circles Blue&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1317758/">Simply Circles Cyan&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1317764/">Simply Circles Green&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1317896/">Simply Circles Orange&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1317910/">Simply Circles Purple&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1317921/">Simply Circles Red&lt;/a>&lt;/li>&lt;/ul>
+
+&lt;p>-SIMPLY CIRCLES FOR OTHER DESKTOPS:&lt;/p>
+
+&lt;ul>&lt;li>&lt;a href="https://www.pling.com/p/1396564/">Simply Circles Xfce4&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1396720/">Simply Circles Metacity&lt;/a>&lt;/li>&lt;li>&lt;a href="https://www.pling.com/p/1354673/">Simply Circles Openbox&lt;/a>&lt;/li>&lt;/ul>
+
+&lt;p>&lt;b>Donations:&lt;/b>&lt;/p>
+
+&lt;p>If you like my work feel free to &lt;a href="https://paypal.me/ju1464">donate&lt;/a>.&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/51/30/30/1277095/d84e0abae388f36fd8f47271be3ec99a9512.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/51/30/30/1277095/d84e0abae388f36fd8f47271be3ec99a9512.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTU1MzAxNjkiLCJvIjoiMSIsInMiOiJlMmUzYzI5YmIzMmJhNGQwN2MxMTllMWJmZjJiNTc2MTA2MDRmNmQ0MzBkMTI0NmEwMTY5NzRkNjk5N2E5ZDNmNGYzYjE2MjA0MzllZTU4OGY3OGU3NWQ3OGNkNmRhYTI3ZmU5NTBkNmFkMmQ5OTRhODg3NGJjNWIyZTc0NmVkZSIsInQiOjE3MjAwOTc3OTAsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.RAMkgnQkTvnVg2TbLTvbEwm_7pmW1mKuYZXqxIJ-Mwk/Simply_Circles_Icons.tar.xz</payload>
+  <tags>original-product,kde,gplv3,gnome,icon-theme,linux,circles,unix</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

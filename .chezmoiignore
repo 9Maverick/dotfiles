@@ -15,6 +15,7 @@ README.md
   .config/spectaclerc
   .config/Trolltech.conf
   .config/yakuakerc
+  .local/share/knewstuff3
   .local/share/konsole
 {{- end -}}
 

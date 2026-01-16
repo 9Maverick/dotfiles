@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="719">
+  <name>Kinetic Animations 6 - Open/Close</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>zbeep</author>
+  <homepage>https://store.kde.org/p/2158770</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>6707</downloads>
+  <installedfile>/home/maverick/.local/share/kwin/effects/kinetic_scale/</installedfile>
+  <id>2158770</id>
+  <releasedate>2024-05-27</releasedate>
+  <summary>&lt;p>Responsive and fluid animations for Plasma 6.&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/68/28/92/2158770/outf.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/68/28/92/2158770/outf.gif</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcxNjgxNDc1MCwibyI6IjEiLCJzIjoiMTUyNmQwYWNiYjNhNDAwNzE1ZDg2MGMzNDY3NDIzYzEyODVhM2VhYjhlMjNjZmM5NGJhMTU0YThmYWExMzhiNmM5ZmUzZGFmZGZiNTM3NjJlZDk2Y2FmODNjYjcxZGY1ZjFjNWUxMDNmOWI3YTg3MjUyOGM1NTU5MDgxNzFmYjAiLCJ0IjoxNzQ4NDMwOTI5LCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgxLjE3MyJ9.ExE8htlT2W5dtp_kJQpVgOkV4dytzy1erbbicMTTyVs/kinetic-scale.tar.gz</payload>
+  <tags>gplv2-later,efi,linux,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="719">
+  <name>Hexagon [Burn-My-Windows]</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>schneegans</author>
+  <homepage>https://store.kde.org/p/2133836</homepage>
+  <licence></licence>
+  <version>44</version>
+  <rating>50</rating>
+  <downloads>3195</downloads>
+  <installedfile>/home/maverick/.local/share/kwin/effects/kwin6_effect_hexagon/</installedfile>
+  <id>2133836</id>
+  <releasedate>2024-11-06</releasedate>
+  <summary>&lt;p>With glowing lines and hexagon-shaped tiles, this effect looks very sci-fi. This is the KWin port of the Hexagon effect of the Burn-My-Windows GNOME Shell extension. &lt;a href="https://github.com/Schneegans/Burn-My-Windows#%EF%B8%8F-installation-kwin">You can find a list of all Burn-My-Windows effects which are currently available for KWin on GitHub.&lt;/a>&lt;/p>
+
+&lt;p>&lt;b>This effect requires at least KWin 6.0.0. Also, if the color picker widgets in the settings of any of the Burn-My-Windows effects do not work, you may have to install the package "libkf6widgetsaddons-dev" (Kubuntu, KDE Neon, etc) or "kf6-kwidgetaddons-devel" (Fedora, OpenSuse, etc).&lt;/b> If you encounter a bug or have a feature request, please open an issue on &lt;a href="https://github.com/Schneegans/Burn-My-Windows/issues">GitHub&lt;/a>!&lt;/p>
+
+&lt;p>&lt;i>IMHO, there are many things which could be done to improve the KWin port of the extension. However, since I am not using KDE as a daily driver, I would appreciate it very much if someone volunteers to work on this port! I am happily receiving pull requests...&lt;/i>&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/67/07/53/2133836/hexagon.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/67/07/53/2133836/hexagon.gif</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTczMDkwNjMwNSwibyI6IjEiLCJzIjoiY2ViYzJlZjU5NDkyYjc5YzEwNmQ5ODM2Y2I3YzQzNjU1YTYwMjA3ZmQ3M2QzYzZiOTYyYzNhY2U5NGQyMjg3ZWUxMmE4YTg0YTkyMjZhYTU5ZTk2N2E3Yjc1MzYwYjc0NmRkOGFmNjNkZmE4MzA3ZDFmYzE5NWI3MmIxMWViODQiLCJ0IjoxNzQxNDQ0MTU3LCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5Ljg3LjExNiJ9.cIdZYi4xqnTCzlrjnmW7a9r4uTZi9rt1mDZwtN26OoI/kwin6-effect-hexagon.tar.gz</payload>
+  <tags>gplv3,animation,linux,original-product,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="719">
+  <name>Glitch [Burn-My-Windows]</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>schneegans</author>
+  <homepage>https://store.kde.org/p/2133844</homepage>
+  <licence></licence>
+  <version>44</version>
+  <rating>50</rating>
+  <downloads>5694</downloads>
+  <installedfile>/home/maverick/.local/share/kwin/effects/kwin6_effect_glitch/</installedfile>
+  <id>2133844</id>
+  <releasedate>2024-11-06</releasedate>
+  <summary>&lt;p>This is the KWin port of the Glitch effect of the Burn-My-Windows GNOME Shell extension. &lt;a href="https://github.com/Schneegans/Burn-My-Windows#%EF%B8%8F-installation-kwin">You can find a list of all Burn-My-Windows effects which are currently available for KWin on GitHub.&lt;/a>&lt;/p>
+
+&lt;p>&lt;b>This effect requires at least KWin 6.0.0. Also, if the color picker widgets in the settings of any of the Burn-My-Windows effects do not work, you may have to install the package "libkf6widgetsaddons-dev" (Kubuntu, KDE Neon, etc) or "kf6-kwidgetaddons-devel" (Fedora, OpenSuse, etc).&lt;/b> If you encounter a bug or have a feature request, please open an issue on &lt;a href="https://github.com/Schneegans/Burn-My-Windows/issues">GitHub&lt;/a>!&lt;/p>
+
+&lt;p>&lt;i>IMHO, there are many things which could be done to improve the KWin port of the extension. However, since I am not using KDE as a daily driver, I would appreciate it very much if someone volunteers to work on this port! I am happily receiving pull requests...&lt;/i>&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/67/07/53/2133844/glitch.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/67/07/53/2133844/glitch.gif</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTczMDkwNTg5OSwibyI6IjEiLCJzIjoiOGQ1MDUxYzM3YTljYzEyN2UwMWNhMTJmYjllNjZhNGYyNmYzMmZlMDcxZGE3ZWZkYmU0NDA3MmM2ZjdjYzliMDkxYTg3MWQ2NjE0MjAxZDczNzZhMWNlMGFlNWQwNTY3NjJiNDYyNGM3NDI4N2JlZmNjZTM4OGUzMGE5NjQwZjQiLCJ0IjoxNzQxNDQ0MTU3LCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5Ljg3LjExNiJ9.JcUk6-INYHvaHcCUaQ8SZaFG2Le2nO9MTQetQFCTd1E/kwin6-effect-glitch.tar.gz</payload>
+  <tags>original-product,unix,animation,gplv3,linux</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="719">
+  <name>Geometry Change</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>fptr</author>
+  <homepage>https://store.kde.org/p/2136283</homepage>
+  <licence></licence>
+  <version>1.5</version>
+  <rating>72</rating>
+  <downloads>10929</downloads>
+  <installedfile>/home/maverick/.local/share/kwin/effects/kwin4_effect_geometry_change/</installedfile>
+  <id>2136283</id>
+  <releasedate>2025-05-14</releasedate>
+  <summary>&lt;p>Animation for windows moved or resized by programs or scripts&lt;/p>
+
+&lt;p>Plasma 5 version here: https://www.pling.com/p/2026302/&lt;/p>
+</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/71/57/04/2136283/recording.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/71/57/04/2136283/recording.gif</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTc0NzI1MDM4NiwibyI6IjEiLCJzIjoiZjc0YzQ5YmRmNmRmMGUzNGM2OGMxOWI2Y2EyM2M3NWE3MmExN2NmYTMxMjZkYjcyMmE0MjllYmIwMzM5ZjEyYjM1ZTA5MzhjNjJkY2ExMjdlYzFhMjJmMWNkMDk4Y2UzMjgyMDcwNWNmMjk3ODEwOTQ3NDNkYjY5MjA0NTYyMDAiLCJ0IjoxNzQ5MTMyMDMxLCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgxLjE3MyJ9.zVaPox2DVVvD0WupkGlfrksx6ABixoOiv6WMoVsIlzI/kwin4-effect-geometry-change-1-5.tar.gz</payload>
+  <tags>unix,linux,original-product,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

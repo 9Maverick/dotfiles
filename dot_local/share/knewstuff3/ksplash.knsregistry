@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="716">
+  <name>Lain login spashscreen</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>bermer</author>
+  <homepage>https://store.kde.org/p/2124792</homepage>
+  <licence></licence>
+  <version>2.0.0</version>
+  <rating>50</rating>
+  <downloads>1572</downloads>
+  <installedfile>/home/maverick/.local/share/plasma/look-and-feel/Lain/</installedfile>
+  <id>2124792</id>
+  <releasedate>2024-05-11</releasedate>
+  <summary>Lain-inspired login splash screen</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/img/00/00/76/30/98/2124792/plasma-d1.gif</preview>
+  <previewBig>https://images.pling.com/img/00/00/76/30/98/2124792/plasma-d1.gif</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA1NzkzODkiLCJvIjoiMSIsInMiOiI5MTYxZmQ0ODc1ZWE5NzNhNjVlOWJlYjkzZmNkZjJhYjJkMWQ3NmQyZjViODk0NTcyYTE0MjllZjJiYjQ2OGIyNzVkNzZiYzFhMzI0MTRiNjg5YTk5YTk3NzI1NWQzZjdiZTY5Y2FhMmRiZWY4MzJmMWY3MTIxNTBiNzUwMTNkMSIsInQiOjE3MTk5MzI5MTcsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.ZxNsTbjCN3UrwFAhN6tWQryh8ey_OUDO89Iaew9MEBY/Lain.tar.gz</payload>
+  <tags>efi,gplv3,linux,login,kdesplash,kde,lain,animation,plasma,unix,theme</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="716">
+  <name>Lagtrain gruvbox login splash</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>bermer</author>
+  <homepage>https://store.kde.org/p/2124802</homepage>
+  <licence></licence>
+  <version>2.0.0</version>
+  <rating>58</rating>
+  <downloads>3594</downloads>
+  <installedfile>/home/maverick/.local/share/plasma/look-and-feel/Lagtrain/</installedfile>
+  <id>2124802</id>
+  <releasedate>2024-05-11</releasedate>
+  <summary>A boot splashscreen from this video: https://www.youtube.com/watch?v=UnIhRpIT7nc recolored to fit the gruvbox theme</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/76/30/98/2124802/icon.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/76/30/98/2124802/icon.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA1Nzk0MzQiLCJvIjoiMSIsInMiOiJkZjNkODc1MTE5NDVmZTQ1ZjcyOTM3ZGQ2MTY3YmMyYTA0NjlmMDg1NzdlYzFmMjU1ZjE4MjBkNDkxMTkyYmJhZjk5YzljNjZhMzg1MTM5M2JlMWY1ZDBmMTE5ZWM5MDg3NDdkOWEzOGQwMDhmZmJjN2ZmNTlhYmYwZTgyMWNlZCIsInQiOjE3MTk5MzI4NTgsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.RPDQgeLuSIqoR3MlPIsYUCp1SnlJYN0h8TLOU4ZC59A/Lagtrain.tar.gz</payload>
+  <tags>efi,unix,theme,plasma,linux,login,gruvbox,kdesplash,kde,lgplv3,animation</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="716">
+  <name>Cool sphere login splash</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>bermer</author>
+  <homepage>https://store.kde.org/p/2140068</homepage>
+  <licence></licence>
+  <version>1.0.0</version>
+  <rating>50</rating>
+  <downloads>1315</downloads>
+  <installedfile>/home/maverick/.local/share/plasma/look-and-feel/Sphere/</installedfile>
+  <id>2140068</id>
+  <releasedate>2024-05-11</releasedate>
+  <summary>A cool animated sphere login splash, taken from someone on mastodon</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/76/30/98/2140068/screenshot-20240322-202430.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/76/30/98/2140068/screenshot-20240322-202430.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTExMzI0OTEiLCJvIjoiMSIsInMiOiI2NDY3ODQzN2Y3MmFiODUzOTFlNDVlNjNjODM5YjUyOTE1ZGY4OGZlM2ExMDAxMjEyNmI4ZjQ4MWZkNzMyY2JmZDkxNmYzYjQxMjc1ZTUyYzI2MjVmZTU1NTY5ZjkzNDBjYjgyYzI0OWNiYWMwMjM5YjJkNGQ3MzhhNjMyOGFhYSIsInQiOjE3MTk5MzI5MjIsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.hRAuN7GINAtG5j3IX25pKUswTs9NgVk9Cy7W7L4e1cQ/sphere.tar.gz</payload>
+  <tags>efi,unix,theme,sphere,linux,login,kde,kdesplash,gplv3,plasma,animation</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="716">
+  <name>Penrose triangle login splash</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>bermer</author>
+  <homepage>https://store.kde.org/p/2124805</homepage>
+  <licence></licence>
+  <version>2.0.0</version>
+  <rating>50</rating>
+  <downloads>4468</downloads>
+  <installedfile>/home/maverick/.local/share/plasma/look-and-feel/Illusion/</installedfile>
+  <id>2124805</id>
+  <releasedate>2024-05-11</releasedate>
+  <summary>Login splashscreen with a penrose triangle on a purple background&lt;br />
+&lt;br />
+Source -&amp;gt; here: https://github.com/dgudim/themes</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/76/30/98/2124805/icon.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/76/30/98/2124805/icon.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA1Nzk2OTciLCJvIjoiMSIsInMiOiIzOWE0YjA4YTE4MjM0MWQ5NTYwOWE2NjU0MTExN2NjYTNkNWI5OTVjNGUzNDBlMTllY2IzZmIzNGY1YTA3NTliMTNjMzU4NTM1ZTMzZTIzODUyNzhhZTg3MWZlMDViZGVmYTEzZGYwMTEyMWY4NTNmOGVlNTU1MjljYmIzYzU0NCIsInQiOjE3MTk5MzI4NTUsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.dqFNq4Z0p7aGlonCwvUISmdjpY9-9IjQWs-JCnu8hkg/Penrose.tar.gz</payload>
+  <tags>animation,theme,triangle,unix,efi,linux,login,kde,kdesplash,gplv3,plasma</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
