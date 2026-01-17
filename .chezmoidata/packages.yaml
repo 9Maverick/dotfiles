@@ -6,6 +6,8 @@ packages:
     - curl
     - procps
     - gcc
+    level2:
+    - virt-manager
   brew:
     brews:
       level0:
@@ -40,6 +42,5 @@ packages:
     - com.valvesoftware.Steam
     - dev.vencord.Vesktop
     - app.zen_browser.zen
-    - org.virt_manager.virt-manager
     level3:
     - org.kde.yakuake
