@@ -3,8 +3,8 @@
     "discordBranch": "stable",
     "arRPC": "on",
     "customTitleBar": false,
-    "splashColor": "rgb(239, 239, 240)",
-    "splashBackground": "rgb(40, 44, 52)",
+    "splashColor": "rgb(239, 239, 241)",
+    "splashBackground": "rgb(18, 18, 20)",
     "openLinksWithElectron": false,
     "hardwareAcceleration": true,
     "spellCheckLanguages": [

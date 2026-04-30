@@ -492,7 +492,8 @@
         "ShowHiddenChannels": {
             "enabled": true,
             "showMode": 0,
-            "hideUnreads": true
+            "hideUnreads": true,
+            "defaultAllowedUsersAndRolesDropdownState": true
         },
         "ShowHiddenThings": {
             "enabled": true,
@@ -632,7 +633,8 @@
             "enabled": false
         },
         "WebScreenShareFixes": {
-            "enabled": true
+            "enabled": true,
+            "experimentalAV1Support": false
         },
         "WhoReacted": {
             "enabled": true
@@ -696,7 +698,8 @@
             "enabled": true
         },
         "FixImagesQuality": {
-            "enabled": true
+            "enabled": true,
+            "originalImagesInChat": false
         },
         "FullUserInChatbox": {
             "enabled": true
@@ -725,6 +728,13 @@
         },
         "DisableDeepLinks": {
             "enabled": true
+        },
+        "MoreQuickReactions": {
+            "enabled": false
+        },
+        "CustomCommands": {
+            "enabled": true,
+            "tagsList": {}
         }
     },
     "notifications": {
@@ -737,8 +747,12 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1762703631775
+        "settingsSyncVersion": 1773501076822
     },
     "eagerPatches": false,
-    "enabledThemes": []
+    "enabledThemes": [],
+    "uiElements": {
+        "chatBarButtons": {},
+        "messagePopoverButtons": {}
+    }
 }
