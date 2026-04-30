@@ -132,13 +132,8 @@ ForegroundNormal=252,252,252
 ForegroundPositive=152,195,121
 ForegroundVisited=199,120,221
 
-[DirSelect Dialog]
-DirSelectDialog Size=829,576
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x95\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
-
 [General]
-ColorScheme=One-Dark-Red
-ColorSchemeHash=404c9c568102723de6d5694e4902840a6a5076c6
+ColorSchemeHash=fe1d086c26bc50a6114e61fb9be4a0cdf9f81bc9
 XftAntialias=true
 XftHintStyle=hintnone
 XftSubPixel=rgb
@@ -154,6 +149,8 @@ Theme=dracula-icons-main
 [KDE]
 LookAndFeelPackage=org.kde.breezetwilight.desktop
 SingleClick=true
+contrast=4
+frameContrast=0.05
 widgetStyle=Breeze
 
 [KFileDialog Settings]
@@ -170,7 +167,7 @@ Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=true
-Speedbar Width=176
+Speedbar Width=184
 View Style=DetailTree
 
 [QtQuickRendererSettings]
