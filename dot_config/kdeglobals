@@ -133,7 +133,8 @@ ForegroundPositive=152,195,121
 ForegroundVisited=199,120,221
 
 [General]
-ColorSchemeHash=fe1d086c26bc50a6114e61fb9be4a0cdf9f81bc9
+ColorScheme=OneDarkRed
+ColorSchemeHash=2bb59a6c01cb413cf3e4a4711534dc3b1a68b8ba
 XftAntialias=true
 XftHintStyle=hintnone
 XftSubPixel=rgb
@@ -150,7 +151,7 @@ Theme=dracula-icons-main
 LookAndFeelPackage=org.kde.breezetwilight.desktop
 SingleClick=true
 contrast=4
-frameContrast=0.05
+frameContrast=0.03
 widgetStyle=Breeze
 
 [KFileDialog Settings]
