@@ -1,0 +1,4 @@
+files:
+  diff:
+    exclude:
+    - .local/share/knewstuff3/symlink_aurorae.knsregistry
