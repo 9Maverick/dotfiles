@@ -1,17 +1,17 @@
 {
-    "minimizeToTray": "on",
-    "discordBranch": "stable",
-    "arRPC": "on",
-    "customTitleBar": false,
-    "splashColor": "rgb(239, 239, 241)",
-    "splashBackground": "rgb(18, 18, 20)",
-    "openLinksWithElectron": false,
-    "hardwareAcceleration": true,
-    "spellCheckLanguages": [
-        "uk",
-        "uk-UA",
-        "en-US"
-    ],
-    "hardwareVideoAcceleration": true,
-    "disableMinSize": true
+  "minimizeToTray": "on",
+  "discordBranch": "stable",
+  "arRPC": "on",
+  "customTitleBar": false,
+  "splashColor": "rgb(239, 239, 241)",
+  "splashBackground": "rgb(18, 18, 20)",
+  "openLinksWithElectron": false,
+  "hardwareAcceleration": true,
+  "spellCheckLanguages": [
+    "uk",
+    "uk-UA",
+    "en-US"
+  ],
+  "hardwareVideoAcceleration": true,
+  "disableMinSize": true
 }
