@@ -1,0 +1,96 @@
+#!/bin/bash
+
+dotfiles-help() {
+  echo '
+>>> Useful functions:
+
+>>> dotfiles-diff
+      shows formated differences between saved and current configurations
+
+>>> dotfiles-diff-excluded
+      shows files that are excluded from dotfiles-diff
+
+>>> dotfiles-format
+      formates configuration files for better readability
+
+
+>>> Terminal utilities:
+
+>>> atuin
+      command history viewer
+
+>>> bat (replaces cat)
+      cat with syntax highlighting and Git integration
+
+>>> btop
+      TUI resource monitor, shows usage and stats for processor, memory, disks, network, and processes
+
+>>> cowsay, cowthing
+      outputs text as character speech/thought box
+
+>>> dust
+      shows disk usage of directories and files
+
+>>> fastfetch (used for terminal start screen)
+      displays system information in terminal
+
+>>> fortune
+      print a random, hopefully interesting, adage
+
+>>> fzf
+      interactive filter program for any kind of list, used for file search
+
+>>> lazydocker
+      TUI interface for managing docker and it`s containers
+
+>>> lazygit
+      TUI interface for managing git repositories
+
+>>> lolcat
+      outputs text with rainbow coloring effect
+
+>>> lsd
+      enriched and enhanced directory listing experience
+
+>>> nvim
+      text editor based on vim
+
+>>> onefetch
+      displays git repositiry information in terminal
+
+>>> speedtest-cli
+      tests internet bandwidth
+
+>>> starship
+      enables terminal prompt(line before input) customization
+
+>>> tmux
+      enables a number of terminals to be created, accessed, and controlled from
+        a single screen. tmux may be detached from a screen and continue running in the background,
+        then later reatached.
+
+>>> trash (replaces rm)
+      enables restoration of files after removal
+
+>>> zoxide (replaces cd)
+      smarter cd command for your terminal, keeps track of the directories you use,
+        and uses a ranking algorithm to navigate to the best reatached
+'
+{{if (ge .level 2)}}
+echo '
+>>> Desktop apps:
+
+>>> bottles
+      alows to run windows application in isolated environments (bottles)
+
+>>> vesktop
+      discord client with plugins and optimizations for linux
+'
+{{ end -}}
+{{if (ge .level 3)}}
+echo '
+>>> yakuake
+      drop down terminal
+'
+{{ end -}}
+}
