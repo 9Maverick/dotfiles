@@ -13,34 +13,34 @@ packages:
       level0:
       - perl
       - atuin
-      - tmux
-      - starship
-      - zoxide
-      - speedtest-cli
       - bat
-      - lsd
-      - trash-cli
-      - dust
-      - cowsay
-      - fortune
-      - lolcat
-      - fastfetch
-      - onefetch
-      - nvim
-      - fzf
       - btop
+      - cowsay
+      - dust
+      - fastfetch
+      - fortune
+      - fzf
       - lazydocker
       - lazygit
+      - lolcat
+      - lsd
+      - nvim
+      - onefetch
+      - speedtest-cli
+      - starship
+      - tmux
+      - trash-cli
+      - zoxide
     casks:
       level1:
       - font-hack-nerd-font
   flatpak:
     level2:
-    - com.usebottles.bottles
-    - com.obsproject.Studio
-    - md.obsidian.Obsidian
-    - com.valvesoftware.Steam
-    - dev.vencord.Vesktop
     - app.zen_browser.zen
+    - dev.vencord.Vesktop
+    - com.obsproject.Studio
+    - com.usebottles.bottles
+    - com.valvesoftware.Steam
+    - md.obsidian.Obsidian
     level3:
     - org.kde.yakuake
