@@ -81,24 +81,4 @@
   <tags>customization,colors,extension,theme,unix,widget,lgplv3,linux,kde,original-product,panel,plasma,plasma##majorversion=6</tags>
   <status>installed</status>
  </stuff>
- <stuff category="706">
-  <name>Desktop Indicator</name>
-  <providerid>api.kde-look.org</providerid>
-  <author>dhruv8sh</author>
-  <homepage>https://store.kde.org/p/2131462</homepage>
-  <licence></licence>
-  <version>v0.3</version>
-  <rating>69</rating>
-  <downloads>14679</downloads>
-  <installedfile>/home/maverick/.local/share/plasma/plasmoids/org.kde.plasma.plasm6desktopindicator/</installedfile>
-  <id>2131462</id>
-  <releasedate>2024-03-18</releasedate>
-  <summary>&lt;p>A minimal virtual desktop indicator to be used as an alternative for a Pager.&lt;/p></summary>
-  <changelog></changelog>
-  <preview>https://images.pling.com/cache/770x540-4/img/00/00/62/52/79/2131462/screenshot-20240221-034215-2.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/62/52/79/2131462/screenshot-20240221-034215-2.png</previewBig>
-  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MTA3MjMxNzQiLCJvIjoiMSIsInMiOiI1YWJhYjM1YzljMDg4NzYwZmQ1ZDEzMTBjMmI5NjgzNzhmOTZhMzY2ZjRlYTk1ODdhODI5YzhjYjAzMGNhNGFiYzdjOWE2YjYwOGM0MWU3ZjM3ZTBhNzMxNWY0NjU2YzQ1YmI2NTI1ZmFlZjdjMmMwZTkyYjNmNWEwMzc3NGQ4YyIsInQiOjE3MTk5MjQ0MDUsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.Ea0BjvTRJ3hxfAT_qEpl-iqIjCvLE8nu5jc1d9ionMQ/v0.3.tar.gz</payload>
-  <tags>applet,kde-plasma,kde,gplv3,extension,original-product,pager,plasma,plasma##majorversion=6,linux,widget,unix,virtual-desktop</tags>
-  <status>installed</status>
- </stuff>
 </hotnewstuffregistry>
