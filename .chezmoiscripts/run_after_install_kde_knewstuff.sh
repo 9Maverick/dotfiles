@@ -25,7 +25,7 @@ for knsregistry_file in $knsregistry_location*; do
     /usr/libexec/kf6/kpackagehandlers/knshandler $url
 
     # To avoid error 429 (too many requests)
-    sleep 1s
+    sleep 3s
   done
 
 done
