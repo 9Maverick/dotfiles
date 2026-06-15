@@ -23,6 +23,9 @@ for knsregistry_file in $knsregistry_location*; do
 
     url="kns://$knsregistry.knsrc/$item_provider/$item_id"
     /usr/libexec/kf6/kpackagehandlers/knshandler $url
+
+    # To avoid error 429 (too many requests)
+    sleep 1s
   done
 
 done
