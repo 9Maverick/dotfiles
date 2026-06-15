@@ -22,7 +22,7 @@ for knsregistry_file in $knsregistry_location*; do
     item_id=${items_ids[i]}
 
     url="kns://$knsregistry.knsrc/$item_provider/$item_id"
-    knshandler $url
+    /usr/libexec/kf6/kpackagehandlers/knshandler $url
   done
 
 done
