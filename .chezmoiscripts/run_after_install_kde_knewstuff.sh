@@ -29,7 +29,7 @@ for knsregistry_file in $knsregistry_location*; do
     item_provider=$(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/providerid/text()" $knsregistry_file)
     item_id=$(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/id/text()" $knsregistry_file)
 
-    link_id_result=$(echo $alternative_linkid_items | grep -oP "${items_names[i]}:\K\S+")
+    link_id_result=$(echo $alternative_linkid_items | grep -oP "$item_name:\K\S+")
     link_id=${link_id_result:-1}
 
     url="kns://$knsregistry.knsrc/$item_provider/$item_id?linkid=$link_id"
