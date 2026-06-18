@@ -6,6 +6,7 @@ packages:
     - curl
     - procps
     - gcc
+    - xmllint
     level2:
     - virt-manager
   brew:
