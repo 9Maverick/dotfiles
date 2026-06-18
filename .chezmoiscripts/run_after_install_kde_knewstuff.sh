@@ -10,22 +10,24 @@ alternative_linkid_items=$(chezmoi execute-template '{{ range .knewstuff.alterna
 for knsregistry_file in $knsregistry_location*; do
   knsregistry=$(basename ${knsregistry_file%.*})
 
-  providers=($(grep -oP "<providerid>\K\S+(?=<)" $knsregistry_file))
-  items_ids=($(grep -oP "<id>\K\S+(?=<)" $knsregistry_file))
-  mapfile -t items_names <<<$(grep -oP "<name>\K(\S|\s)+(?=<)" $knsregistry_file)
-  if [[ ${#providers[@]} != ${#items_ids[@]} ]]; then
-    echo ">>> ERROR: mismatch of providers and ids number:"
-    echo ">>> providers count: ${#providers[@]}"
-    echo ">>> providers items:" "${providers[@]}"
-    echo ">>> ids count: ${#items_ids[@]}"
-    echo ">>> ids items:" "${items_ids[@]}"
-    echo ">>> filename: $knsregistry_file"
-  fi
-  count=${#items_ids[@]}
+  count=$(xmllint --xpath 'count(//hotnewstuffregistry/stuff)' $knsregistry_file)
 
   for ((i = 0; i < $count; i++)); do
-    item_provider=${providers[i]}
-    item_id=${items_ids[i]}
+    item_name=$(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/name/text()" $knsregistry_file)
+    item_installedfiles=($(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/installedfile/text()" $knsregistry_file))
+
+    for ((j = 0; j < ${#item_installedfiles[@]}; j++)); do
+      if [ -e ${item_installedfiles[j]} ]; then
+        continue 2
+      fi
+    done
+
+    echo
+    echo ">>> $item_name not found, proceeding to install"
+    echo
+
+    item_provider=$(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/providerid/text()" $knsregistry_file)
+    item_id=$(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/id/text()" $knsregistry_file)
 
     link_id_result=$(echo $alternative_linkid_items | grep -oP "${items_names[i]}:\K\S+")
     link_id=${link_id_result:-1}
