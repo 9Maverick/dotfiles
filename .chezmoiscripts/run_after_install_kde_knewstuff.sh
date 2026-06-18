@@ -1,6 +1,6 @@
 #!/bin/bash
 
-knsregistry_location="$HOME/.local/share/knewstuff3/"
+knsregistry_location="$(chezmoi execute-template '{{ .chezmoi.sourceDir }}')/dot_local/share/knewstuff3/"
 
 alternative_linkid_items=$(chezmoi execute-template '{{ range .knewstuff.alternativeLinkIds -}}
 {{ . }}
