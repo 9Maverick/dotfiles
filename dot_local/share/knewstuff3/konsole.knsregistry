@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="462">
+  <name>One Dark Konsole</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>apachelogger</author>
+  <homepage>https://store.kde.org/p/1216368</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>57</rating>
+  <downloads>19969</downloads>
+  <installedfile>/home/maverick/.local/share/konsole/onedark.colorscheme</installedfile>
+  <id>1216368</id>
+  <releasedate>2018-02-23</releasedate>
+  <summary>Konsole color scheme based on Atom's One Dark Syntax theme.&lt;br />
+&lt;br />
+https://github.com/atom/one-dark-syntax</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/02/61/68/1216368/1fd45547c532fda767f0b4d35375f603b90d1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/02/61/68/1216368/1fd45547c532fda767f0b4d35375f603b90d1.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1MTkzOTgzNTEiLCJvIjoiMSIsInMiOiI5ZWNjYTZmMmUxOGJiZjI2YmE3NjkyNDg2MDU3OTIyZDBkOWEyMmUzYTczMDU3OGZmODgxNzI5OGZmZjg2Mjc0NjBkYTU0NDYzYzk1ZTFlOWNhODgxOGEzNDFlMDA1NTgzMjM1NTdkNDIyNmViMjJmMGI0NDU1MzFjOGQ3NTc3NSIsInQiOjE3MjAxNzI3MzEsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.Gy5XzBNLkPk6diBSpWRZG_FFyhhjbFgjYniZTHcmO3w/One Dark.colorscheme</payload>
+  <tags>addon,cc-by-sa</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="462">
+  <name>Nothing</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/2116661</homepage>
+  <licence></licence>
+  <version>1.1</version>
+  <rating>50</rating>
+  <downloads>2189</downloads>
+  <installedfile>/home/maverick/.local/share/konsole/Nothing.colorscheme</installedfile>
+  <id>2116661</id>
+  <releasedate>2024-06-21</releasedate>
+  <summary>Konsole theme for Nothing plasma theme.&lt;br />
+&lt;br />
+https://store.kde.org/p/2116665</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/73/13/2116661/konsole12.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/73/13/2116661/konsole12.jpg</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDg3MzU4MjQiLCJvIjoiMSIsInMiOiI0ZmQ5ZWM2Yzk4OTdmN2I1ZjAxMTRiMzAwOTRkYWM3YjgxMGZhMzg4NzliOTlhMzFmYmY1YmNjMTFiOGE0YWIwNWQzODc2NWU2Y2E5N2QyYzdlNTQ5NjMxMmJjYTBhMzZjZTRkMDk0ZTExYTA5OGUyNWI0MzRlNDdmY2E5ZmY4ZiIsInQiOjE3MjAxNzI3NjcsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.bqNPuSjbo3PQPTFbrNhPhzOmxykiXQSD8czj8ZOAUik/Nothing.colorscheme</payload>
+  <tags>addon,konsole,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
