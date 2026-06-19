@@ -1,11 +1,9 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
-Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -63,18 +61,18 @@ ForegroundPositive=152,195,121
 ForegroundVisited=199,120,221
 
 [Colors:Header][Inactive]
-BackgroundAlternate=37,42,52
-BackgroundNormal=30,34,42
-DecorationFocus=224,107,116
-DecorationHover=224,107,116
-ForegroundActive=98,174,239
-ForegroundInactive=171,178,191
-ForegroundLink=98,152,239
-ForegroundNegative=224,107,116
-ForegroundNeutral=229,192,122
+BackgroundAlternate=49,54,59
+BackgroundNormal=42,46,50
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
 ForegroundNormal=252,252,252
-ForegroundPositive=152,195,121
-ForegroundVisited=199,120,221
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:Selection]
 BackgroundAlternate=30,87,116
@@ -133,51 +131,18 @@ ForegroundPositive=152,195,121
 ForegroundVisited=199,120,221
 
 [General]
-ColorScheme=One-Dark-Red
-ColorSchemeHash=2bb59a6c01cb413cf3e4a4711534dc3b1a68b8ba
-XftAntialias=true
-XftHintStyle=hintnone
-XftSubPixel=rgb
-fixed=NotoSansM Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=NotoSans Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=NotoSans Nerd Font,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-
-[Icons]
-Theme=dracula-icons-main
+ColorScheme=BreezeDark
+Name=One Dark Red
+shadeSortColumn=true
 
 [KDE]
-LookAndFeelPackage=org.kde.breezetwilight.desktop
-SingleClick=true
+Contrast=0
 contrast=4
 frameContrast=0.03
-widgetStyle=Breeze
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=false
-Decoration position=2
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=true
-Sort by=Date
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=true
-Speedbar Width=184
-View Style=DetailTree
-
-[QtQuickRendererSettings]
-SceneGraphBackend=OpenGl
 
 [WM]
 activeBackground=30,34,42
 activeBlend=252,252,252
-activeFont=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=252,252,252
 inactiveBackground=30,34,42
 inactiveBlend=171,178,191
