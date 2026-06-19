@@ -10,12 +10,13 @@ README.md
   .config/kdeglobals
   .config/konsolerc
   .config/krunnerrc
-  .config/kwinrc 
+  .config/kwinrc
   .config/mimeapps.list
+  .config/kglobalshortcutsrc
+  .config/plasma-org.kde.plasma.desktop-appletsrc
   .config/spectaclerc
   .config/Trolltech.conf
   .config/yakuakerc
-  .local/share/knewstuff3
-  .local/share/konsole
+  .local/share
 {{- end -}}
 
