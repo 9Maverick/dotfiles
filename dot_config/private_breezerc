@@ -1,0 +1,7 @@
+[Style]
+SliderDrawTickMarks=false
+TabBarDrawCenteredTabs=true
+ToolBarDrawItemSeparator=false
+
+[Windeco]
+ButtonSize=ButtonLarge
