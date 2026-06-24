@@ -173,7 +173,7 @@ var layout = {
                             "DialogWidth": "1912"
                         },
                         "/FaceGrid/Appearance": {
-                            "chartFace": "org.kde.ksysguard.linechart",
+                            "chartFace": "org.kde.ksysguard.piechart",
                             "showTitle": "false"
                         },
                         "/FaceGrid/SensorColors": {
