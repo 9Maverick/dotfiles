@@ -15,10 +15,10 @@ var layout = {
                             "DialogWidth": "1912"
                         }
                     },
-                    "geometry.height": 0,
-                    "geometry.width": 0,
-                    "geometry.x": 0,
-                    "geometry.y": 0,
+                    "geometry.height": 640,
+                    "geometry.width": 400,
+                    "geometry.x": 640,
+                    "geometry.y": 160,
                     "plugin": "com.github.prayag2.modernclock",
                     "title": "Modern Clock"
                 },
