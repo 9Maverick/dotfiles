@@ -15,10 +15,10 @@ var layout = {
                             "DialogWidth": "1912"
                         }
                     },
-                    "geometry.height": 160,
-                    "geometry.width": 640,
-                    "geometry.x": 640,
-                    "geometry.y": 400,
+                    "geometry.height": 9,
+                    "geometry.width": 36,
+                    "geometry.x": 36,
+                    "geometry.y": 22,
                     "plugin": "com.github.prayag2.modernclock",
                     "title": "Modern Clock"
                 },
@@ -33,10 +33,10 @@ var layout = {
                             "DialogWidth": "1912"
                         }
                     },
-                    "geometry.height": 80,
-                    "geometry.width": 128,
-                    "geometry.x": 896,
-                    "geometry.y": 576,
+                    "geometry.height": 4,
+                    "geometry.width": 7,
+                    "geometry.x": 50,
+                    "geometry.y": 32,
                     "plugin": "org.kde.plasma.binaryclock",
                     "title": "Двійковий годинник"
                 },
@@ -47,10 +47,10 @@ var layout = {
                             "DialogWidth": "1912"
                         }
                     },
-                    "geometry.height": 96,
-                    "geometry.width": 912,
-                    "geometry.x": 32,
-                    "geometry.y": 16,
+                    "geometry.height": 5,
+                    "geometry.width": 50,
+                    "geometry.x": 2,
+                    "geometry.y": 1,
                     "plugin": "Aligned.Music.Widget",
                     "title": "Aligned Music"
                 }
@@ -73,7 +73,7 @@ var layout = {
                     "positions": "{\"1920x1080\":[]}"
                 },
                 "/Wallpaper/org.kde.image/General": {
-                    "Image": "file:///home/maverick/.local/share/wallpapers/Wings-Wall-With-Plasma-Logo.jpg",
+                    "Image": "{{- .chezmoi.homeDir -}}/.local/share/wallpapers/Wings-Wall-With-Plasma-Logo.jpg",
                     "SlidePaths": "/home/maverick/.local/share/wallpapers/,/usr/share/wallpapers/"
                 }
             },
@@ -98,25 +98,7 @@ var layout = {
                     "positions": "{\"1920x1080\":[]}"
                 },
                 "/Wallpaper/org.kde.image/General": {
-                    "Image": "file:///home/maverick/.local/share/wallpapers/Wings-Wall-With-Plasma-Logo.jpg",
-                    "SlidePaths": "/home/maverick/.local/share/wallpapers/,/usr/share/wallpapers/"
-                }
-            },
-            "wallpaperPlugin": "org.kde.image"
-        },
-        {
-            "applets": [],
-            "config": {
-                "/": {
-                    "formfactor": "0",
-                    "immutability": "1",
-                    "lastScreen": "2",
-                    "wallpaperplugin": "org.kde.image",
-                    "ItemGeometries-1920x1080": "",
-                    "ItemGeometriesHorizontal": ""
-                },
-                "/Wallpaper/org.kde.image/General": {
-                    "Image": "file:///home/maverick/.local/share/wallpapers/Wings-Wall-With-Plasma-Logo.jpg",
+                    "Image": "{{- .chezmoi.homeDir -}}/.local/share/wallpapers/Wings-Wall-With-Plasma-Logo.jpg",
                     "SlidePaths": "/home/maverick/.local/share/wallpapers/,/usr/share/wallpapers/"
                 }
             },
