@@ -1,5 +1,7 @@
 #!/bin/bash
 
+{{- if ge .level 3}}
+
 knsregistry_location="$(chezmoi execute-template '{{ .chezmoi.sourceDir }}')/dot_local/share/knewstuff3/"
 
 alternative_linkid_items=$(chezmoi execute-template '{{ range .knewstuff.alternativeLinkIds -}}
@@ -40,3 +42,5 @@ for knsregistry_file in $knsregistry_location*; do
   done
 
 done
+
+{{- end -}}
