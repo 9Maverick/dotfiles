@@ -1,5 +1,38 @@
 var plasma = getApiVersion(1);
 
+// Grid unit (GU): Plasma's device-independent length unit.
+// At 1920 × 1080 standard DPI  →  GU = 1080 / 60 = 18 px
+// At 2560 × 1440 standard DPI  →  GU = 1440 / 60 = 24 px
+// screenGeometry(0) returns the primary screen rectangle in physical pixels.
+//
+// ModernClock and BinaryClock are kept horizontally centered at any resolution:
+//   x = Math.round((screenWidthGU − widgetWidthGU) / 2)
+// AlignedMusic is positioned proportionally (top-left anchor scales with screen).
+var _geo       = screenGeometry(0);
+var _GU        = Math.round(_geo.height / 60);   // GridUnits in physical pixels
+var _screenWgu = Math.floor(_geo.width  / _GU);  // screen width  in GU
+var _screenHgu = Math.floor(_geo.height / _GU);  // screen height in GU
+var _refWgu    = 106;                             // Math.floor(1920 / 18)
+var _refHgu    = 60;                              // Math.floor(1080 / 18)
+
+// ModernClock  –  centered, reference: x=36 y=22 w=34 h=9 at 1920×1080
+var _mc_x = Math.round((_screenWgu - _mc_w) / 2);   // horizontal center
+var _mc_y = Math.round(22 * _screenHgu / _refHgu);
+var _mc_w = Math.round(34 * _screenWgu / _refWgu);
+var _mc_h = Math.round( 9 * _screenHgu / _refHgu);
+
+// BinaryClock  –  centered, reference: x=50 y=32 w=7 h=4 at 1920×1080
+var _bc_x = Math.round((_screenWgu - _bc_w) / 2);   // horizontal center
+var _bc_y = Math.round(32 * _screenHgu / _refHgu);
+var _bc_w = Math.round( 7 * _screenWgu / _refWgu);
+var _bc_h = Math.round( 4 * _screenHgu / _refHgu);
+
+// Aligned Music Widget  –  proportional, reference: x=2 y=2 w=50 h=5 at 1920×1080
+var _am_x = Math.round( 2 * _screenWgu / _refWgu);
+var _am_y = Math.round( 2 * _screenHgu / _refHgu);
+var _am_w = Math.round(50 * _screenWgu / _refWgu);
+var _am_h = Math.round( 5 * _screenHgu / _refHgu);
+
 var layout = {
     "desktops": [
         {
@@ -235,6 +268,28 @@ var layout = {
     "serializationFormatVersion": "1"
 }
 ;
+
+// Apply computed geometry values to the layout before loading
+var _applets = layout.desktops[0].applets;
+for (var _i = 0; _i < _applets.length; _i++) {
+    var _a = _applets[_i];
+    if (_a.plugin === "com.github.prayag2.modernclock") {
+        _a["geometry.x"]      = _mc_x;
+        _a["geometry.y"]      = _mc_y;
+        _a["geometry.width"]  = _mc_w;
+        _a["geometry.height"] = _mc_h;
+    } else if (_a.plugin === "org.kde.plasma.binaryclock") {
+        _a["geometry.x"]      = _bc_x;
+        _a["geometry.y"]      = _bc_y;
+        _a["geometry.width"]  = _bc_w;
+        _a["geometry.height"] = _bc_h;
+    } else if (_a.plugin === "Aligned.Music.Widget") {
+        _a["geometry.x"]      = _am_x;
+        _a["geometry.y"]      = _am_y;
+        _a["geometry.width"]  = _am_w;
+        _a["geometry.height"] = _am_h;
+    }
+}
 
 plasma.loadSerializedLayout(layout);
 
