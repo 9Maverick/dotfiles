@@ -15,6 +15,7 @@ system-level
   .config/mimeapps.list
   .config/breezerc
   .config/ksplashrc
+  .config/kcminputrc
   .config/spectaclerc
   .config/Trolltech.conf
   .config/yakuakerc
