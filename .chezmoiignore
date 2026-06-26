@@ -16,7 +16,6 @@ README.md
   .config/kfontinstuirc
   .config/kglobalshortcutsrc
   .config/ksplashrc
-  .config/plasma-org.kde.plasma.desktop-appletsrc
   .config/plasmashellrc
   .config/spectaclerc
   .config/Trolltech.conf
