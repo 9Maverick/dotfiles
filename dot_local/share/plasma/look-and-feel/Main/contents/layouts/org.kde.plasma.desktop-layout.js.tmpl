@@ -239,11 +239,13 @@ var layout = {
 plasma.loadSerializedLayout(layout);
 
 
-// Workaround to apply panel to second screen
-var allPanels = panels();
-for (var i = 0; i < allPanels.length; i++) {
-    if (allPanels[i].location === "top") {
-        allPanels[i].screen = 1;  // secondary screen (left monitor)
-        break;
+// Workaround to apply panel to second screen if exists
+if (screenCount() > 1) {
+    var allPanels = panels();
+    for (var i = 0; i < allPanels.length; i++) {
+        if (allPanels[i].location === "top") {
+            allPanels[i].screen = 1;  // secondary screen (left monitor)
+            break;
+        }
     }
 }
