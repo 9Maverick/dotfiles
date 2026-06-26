@@ -1,9 +1,3 @@
 #!/bin/bash -i
 
 source $HOME/.bashrc
-
-
-{{if (ge .level 3) }}
-kwin --replace & disown
-plasmashell --replace & disown
-{{- end -}}
