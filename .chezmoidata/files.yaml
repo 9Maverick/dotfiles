@@ -2,3 +2,6 @@ files:
   diff:
     exclude:
     - .local/share/knewstuff3/symlink_aurorae.knsregistry
+  system:
+    level3:
+    - /etc/sddm.conf.d/kde_settings.conf
