@@ -1,7 +1,9 @@
 README.md
 
 {{- if lt .level 2}}
-  .var
+  .var/app
+  .local/share/konsole
+  .local/share/flatpak
 {{- end -}}
 
 {{- if lt .level 3}}
@@ -15,6 +17,8 @@ README.md
   .config/spectaclerc
   .config/Trolltech.conf
   .config/yakuakerc
-  .local/share
+  .local/share/color-schemes
+  .local/share/knewstuff3
+  .local/share/plasma
 {{- end -}}
 
