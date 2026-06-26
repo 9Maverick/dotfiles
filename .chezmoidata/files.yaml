@@ -5,3 +5,5 @@ files:
   system:
     level3:
     - /etc/sddm.conf.d/kde_settings.conf
+    - /usr/lib/sddm/sddm.conf.d/default.conf
+    - /usr/lib/sddm/sddm.conf.d/kde_settings.conf
