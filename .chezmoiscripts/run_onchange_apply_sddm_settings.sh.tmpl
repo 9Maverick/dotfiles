@@ -6,7 +6,9 @@ save_dir={{- .chezmoi.sourceDir -}}/system-level
 
 {{if (and (ge .level 3) (hasKey .files.system "level3"))}}
 {{ range .files.system.level3 -}}
-sudo cp $save_dir{{- . }} {{ . -}}
+
+sudo cp $save_dir{{- . }} {{ . }}
+
 {{end}}
 {{end}}
 
