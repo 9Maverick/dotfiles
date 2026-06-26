@@ -1,8 +1,0 @@
-[Keyboard]
-NumLock=0
-
-[Libinput][2821][6507][Asus Keyboard]
-PointerAccelerationProfile=1
-
-[Mouse]
-cursorTheme=Vimix-cursors
