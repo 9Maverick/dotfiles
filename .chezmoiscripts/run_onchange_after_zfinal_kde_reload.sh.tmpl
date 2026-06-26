@@ -1,0 +1,7 @@
+#!/bin/bash -i
+
+{{if (ge .level 3) }}
+kwin --replace & disown > /dev/null 2>&1
+sleep 10s 
+plasmashell --replace & disown > /dev/null 2>&1
+{{- end -}}
