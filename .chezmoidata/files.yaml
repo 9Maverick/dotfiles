@@ -2,8 +2,10 @@ files:
   diff:
     exclude:
     - .local/share/knewstuff3/symlink_aurorae.knsregistry
+    #- .var/app/app.zen_browser.zen/.zen/default_release/extensions.json
   system:
     level3:
     - /etc/sddm.conf.d/kde_settings.conf
     - /usr/lib/sddm/sddm.conf.d/default.conf
     - /usr/lib/sddm/sddm.conf.d/kde_settings.conf
+    - /var/lib/sddm/.config/kcminputrc
