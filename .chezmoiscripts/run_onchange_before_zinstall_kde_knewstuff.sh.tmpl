@@ -16,10 +16,11 @@ for knsregistry_file in $knsregistry_location*; do
 
   for ((i = 0; i < $count; i++)); do
     item_name=$(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/name/text()" $knsregistry_file)
-    item_installedfiles=($(xmllint --xpath "//hotnewstuffregistry/stuff[$i+1]/installedfile/text()" $knsregistry_file))
+    item_installedfiles=($(xmllint --xpath "//hotnewstuffregistry/stuff[1]/installedfile/text()" colorschemes.knsregistry | grep -oP "/home/\S+?/\K\S+"))
 
     for ((j = 0; j < ${#item_installedfiles[@]}; j++)); do
-      if [ -e ${item_installedfiles[j]} ]; then
+      installedfile="$HOME/${item_installedfiles[j]}"
+      if [ -e $installedfile ]; then
         continue 2
       fi
     done
