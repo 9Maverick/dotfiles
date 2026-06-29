@@ -212,5 +212,3 @@ Scale=1
 [org.kde.kdecoration2]
 BorderSizeAuto=false
 ButtonsOnRight=IAX
-library=org.kde.kwin.aurorae.v2
-theme=__aurorae__svg__One-Dark-Red

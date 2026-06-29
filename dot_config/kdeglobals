@@ -144,15 +144,11 @@ menuFont=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=NotoSans Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=NotoSans Nerd Font,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
-[Icons]
-Theme=dracula-icons-main
-
 [KDE]
-LookAndFeelPackage=org.kde.breezetwilight.desktop
+LookAndFeelPackage=Main
 SingleClick=true
 contrast=4
 frameContrast=0.03
-widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false

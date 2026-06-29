@@ -8,6 +8,7 @@ ConfigVersion=1
 
 [MainWindow]
 MenuBar=Disabled
+ToolBarsMovable=Enabled
 
 [MemorySettings]
 MemoryLimitValue=1024
