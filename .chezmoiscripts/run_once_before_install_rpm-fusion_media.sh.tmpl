@@ -1,6 +1,6 @@
 #!/bin/bash
 
-{{- if ge .level 3}}
+{{- if ge .level 2}}
 {{- if eq .chezmoi.osRelease.id "fedora"}}
 
 if ! [[ $(dnf repolist | grep 'RPM Fusion') ]]; then
