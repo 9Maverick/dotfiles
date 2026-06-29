@@ -2,7 +2,8 @@ files:
   diff:
     exclude:
     - .local/share/knewstuff3/symlink_aurorae.knsregistry
-    #- .var/app/app.zen_browser.zen/.zen/default_release/extensions.json
+    #- .var/app/app.zen_browser.zen/.zen/default_release/extensions.json\
+  # Files located at system-level that should be applied
   system:
     level3:
     - /etc/sddm.conf.d/kde_settings.conf

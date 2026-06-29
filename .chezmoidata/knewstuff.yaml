@@ -1,4 +1,5 @@
 knewstuff:
+  # Non default options of items that should be installed
   alternativeLinkIds:
-    # Format is Iten Name:linkid
+    # Format is Iten Name:linkid(number of option)
     - Dracula Icons:2

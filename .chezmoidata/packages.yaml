@@ -1,14 +1,18 @@
 packages:
+  # Installed by native package manager of distribution 
   native:
     level0:
+    # Dependencies, do not remove
     - git
     - file
     - curl
     - procps
     - gcc
     - xmllint
+    #
     level2:
     - virt-manager
+  # Will be installed by HomeBrew package manager independently of distribution
   brew:
     brews:
       level0:
@@ -35,6 +39,7 @@ packages:
     casks:
       level1:
       - font-hack-nerd-font
+  # Installes destop apps in isolated environment
   flatpak:
     level2:
     - app.zen_browser.zen
