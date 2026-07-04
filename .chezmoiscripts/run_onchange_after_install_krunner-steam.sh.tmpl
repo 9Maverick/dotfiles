@@ -1,0 +1,14 @@
+#!/bin/bash
+
+{{- if ge .level 3}}
+
+mkdir build
+
+git clone https://github.com/9Maverick/krunner-steam-flatpak $HOME/build/krunner-steam-flatpak
+
+(
+  cd $HOME//build/krunner-steam-flatpak
+  ./install.sh
+)
+
+{{- end -}}
