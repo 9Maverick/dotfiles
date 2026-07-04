@@ -13,16 +13,39 @@ fi
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 echo
 
+{{- $installedFlatpaks := "" -}}
+{{ if ne (trim (output "sh" "-c" "command -v flatpak 2>/dev/null || true")) "" -}}
+  {{- $installedFlatpaks = output "flatpak" "list" "--app" "--columns=application" -}}
+{{- end }}
+
 xargs flatpak install -y </dev/stdin <<EOF
-{{if (and (ge .level 2) (hasKey .packages.flatpak "level2"))}}
-{{ range .packages.flatpak.level2 -}}
-{{ . }}
-{{end}}
-{{end}}
-{{if (and (ge .level 3) (hasKey .packages.flatpak "level3"))}}
-{{ range .packages.flatpak.level3 -}}
-{{ . }}
-{{end}}
-{{end}}
-EOF
+{{- if (and (ge .level 2) (hasKey .packages.flatpak "level2")) -}}
+  {{- range .packages.flatpak.level2 -}}
+
+    {{- $app := . -}}
+    {{- $shortName := lower (last (splitList "." $app)) -}}
+    {{- $inFlatpak := contains $app $installedFlatpaks -}}
+    {{- $hasDesktopFile := ne (trim (output "sh" "-c" (printf "find /usr/share/applications /var/lib/flatpak/exports/share/applications $HOME/.local/share/applications $HOME/.local/share/flatpak/exports/share/applications -iname '%s.desktop' 2>/dev/null || true" $shortName))) "" -}}
+
+    {{- if not (or $inFlatpak $hasDesktopFile) }}
+      {{ . }}
+    {{- end -}}
+
+  {{- end -}}
 {{- end -}}
+{{- if (and (ge .level 3) (hasKey .packages.flatpak "level3")) -}}
+  {{- range .packages.flatpak.level3 -}}
+
+    {{- $app := . -}}
+    {{- $shortName := lower (last (splitList "." $app)) -}}
+    {{- $inFlatpak := contains $app $installedFlatpaks -}}
+    {{- $hasDesktopFile := ne (trim (output "sh" "-c" (printf "find /usr/share/applications /var/lib/flatpak/exports/share/applications $HOME/.local/share/applications $HOME/.local/share/flatpak/exports/share/applications -iname '%s.desktop' 2>/dev/null || true" $shortName))) "" -}}
+
+    {{- if not (or $inFlatpak $hasDesktopFile) }}
+      {{ . }}
+    {{- end -}}
+
+  {{- end -}}
+{{- end }}
+EOF
+{{- end }}
