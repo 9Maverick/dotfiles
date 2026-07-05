@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# layout hash: {{ include "dot_local/share/plasma/look-and-feel/Main/contents/layouts/org.kde.plasma.desktop-layout.js.tmpl" | sha256sum }}
+# defaults hash: {{ include "dot_local/share/plasma/look-and-feel/Main/contents/private_defaults" | sha256sum }}
+# metadata hash: {{ include "dot_local/share/plasma/look-and-feel/Main/metadata.json" | sha256sum }}
+
 {{- if ge .level 3}}
 
 echo
