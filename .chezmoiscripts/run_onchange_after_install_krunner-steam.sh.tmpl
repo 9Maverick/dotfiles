@@ -1,6 +1,10 @@
 #!/bin/bash
 
-{{- if ge .level 3}}
+{{ if ge .level 3 -}}
+
+{{- $steamFlatpak := output "sh" "-c" "flatpak list --app --columns=application | grep 'Steam' || true" -}}
+{{- if ne $steamFlatpak "" -}}
+
 echo
 echo ">>> Flatpak Steam installation detected, installing krunner plugin"
 echo
@@ -14,4 +18,5 @@ git clone https://github.com/9Maverick/krunner-steam-flatpak $HOME/build/krunner
   ./install.sh
 )
 
+{{- end -}}
 {{- end -}}
