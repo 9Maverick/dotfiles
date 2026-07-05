@@ -5,7 +5,10 @@
 save_dir={{- .chezmoi.sourceDir -}}/system-level
 
 {{if (and (ge .level 3) (hasKey .files.system "level3"))}}
+echo ">>> Applying level 3 system settings"
 {{ range .files.system.level3 -}}
+
+echo ">>> Applying {{ . }}"
 
 sudo mkdir -p $(dirname {{ . -}})
 sudo cp $save_dir{{- . }} {{ . }}

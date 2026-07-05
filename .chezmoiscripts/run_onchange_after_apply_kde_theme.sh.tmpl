@@ -2,6 +2,10 @@
 
 {{- if ge .level 3}}
 
+echo
+echo ">>> Detected KDE theme changes, applying theme"
+echo
+
 plasma-apply-lookandfeel --resetLayout --apply Main
 
 sleep 3s

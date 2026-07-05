@@ -5,7 +5,7 @@
 
 if ! [[ $(dnf repolist | grep 'RPM Fusion') ]]; then
   echo
-  echo ">>>rpm fusion repository could not be found, starting installation"
+  echo ">>> rpm fusion repository could not be found, starting installation"
   echo
   sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
   echo
@@ -15,18 +15,26 @@ if ! [[ $(dnf repolist | grep 'RPM Fusion') ]]; then
   echo
 fi
 
+echo ">>> Starting media driver install"
+echo
 sudo dnf swap -y ffmpeg-free ffmpeg --allowerasing
 echo
 
 VENDOR=$(lspci | grep -oP 'VGA compatible controller: \K\w+')
 
 if [[ "$VENDOR" == "NVIDIA" ]]; then
+  echo ">>> Detected nvidia graphics, proceeding to install specific media drivers"
+  echo
   sudo dnf update -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
   sudo dnf install -y libva-nvidia-driver.{i686,x86_64}
 elif [[ "$VENDOR" == "Intel" ]]; then
+  echo ">>> Detected intel graphics, proceeding to install specific media drivers"
+  echo
   sudo dnf update -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
   sudo dnf install -y intel-media-driver
 elif [[ "$VENDOR" == "Advanced" ]]; then # AMD driver
+  echo ">>> Detected AMD graphics, proceeding to install specific media drivers"
+  echo
   sudo dnf update -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
   sudo dnf swap -y mesa-va-drivers mesa-va-drivers-freeworld
   sudo dnf swap -y mesa-vdpau-drivers mesa-vdpau-drivers-freeworld

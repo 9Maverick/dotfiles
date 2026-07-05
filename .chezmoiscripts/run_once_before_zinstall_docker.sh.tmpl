@@ -2,7 +2,7 @@
 
 if ! command -v docker >/dev/null 2>&1; then
   echo
-  echo ">>>docker could not be found, starting installation"
+  echo ">>> Docker could not be found, starting installation"
   echo
   if [[ $ID =~ ^(centos|fedora|rhel|rocky|ubuntu|debian|raspbian)$ ]]; then
     sudo sh -c "$(curl -fsLS get.docker.com)" -- --no-autostart || true

@@ -1,6 +1,9 @@
 #!/bin/bash -i
 
 {{if (ge .level 3) }}
+echo
+echo ">>> Reloading KDE to apply changes"
+echo
 kwin --replace & disown > /dev/null 2>&1
 sleep 10s 
 plasmashell --replace & disown > /dev/null 2>&1
