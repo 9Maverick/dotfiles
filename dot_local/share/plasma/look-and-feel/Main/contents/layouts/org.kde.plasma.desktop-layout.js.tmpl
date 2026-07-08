@@ -10,7 +10,10 @@ var _refWgu    = 106;                             // Math.floor(1920 / 18)
 var _refHgu    = 60;                              // Math.floor(1080 / 18)
 
 // ModernClock  –  centered, reference: x=36 y=22 w=34 h=9 at 1920×1080
-var _mc_w = Math.round(34 * _screenWgu / _refWgu);
+var _mc_w = Math.max(
+  Math.round(37 * _screenWgu / _refWgu),
+  37
+);
 var _mc_h = Math.round( 9 * _screenHgu / _refHgu);
 var _mc_x = Math.round((_screenWgu - _mc_w) / 2);   // horizontal center
 var _mc_y = Math.round(22 * _screenHgu / _refHgu);
