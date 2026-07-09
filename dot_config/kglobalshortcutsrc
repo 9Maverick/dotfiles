@@ -4,7 +4,7 @@ switch-to-activity-fa7e7d73-9338-4180-875d-b57cc13dcd68=none,none,Перемкн
 
 [KDE Keyboard Layout Switcher]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Перемкнутися на останню використану розкладку
-Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Перемкнутися на наступну розкладку
+Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Alt+Shift,Перемкнутися на наступну розкладку
 _k_friendly_name=Програма перемикання розкладки клавіатури
 
 [kaccess]
