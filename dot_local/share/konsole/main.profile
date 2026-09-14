@@ -12,4 +12,4 @@ Parent=FALLBACK/
 
 [Scrolling]
 HistoryMode=2
-ScrollBarPosition=2
+ScrollBarPosition=1
