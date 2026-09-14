@@ -56,20 +56,26 @@ dimscreenEnabled=true
 krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 poloniumEnabled=false
+synchronizeskipswitcherEnabled=true
 translucencyEnabled=true
 
 [Script-krohnkite]
 binaryTreeLayoutOrder=3
+cascadeLayoutOrder=11
+columnsBalanced=true
+columnsLayoutInitialRotationAngle=1
 enableBTreeLayout=true
 enableSpiralLayout=false
 ignoreClass=krunner,yakuake,spectacle,kded5,kded6,xwaylandvideobridge
 maximizeSoleTile=true
-monocleLayoutOrder=5
+monocleLayoutOrder=12
 preventMinimize=true
 quarterLayoutOrder=1
+quarterLayoutReset=true
 screenGapBetween=8
-spiralLayoutOrder=2
-stairLayoutOrder=12
+soleWindowNoBorders=true
+soleWindowNoGaps=true
+spiralLayoutOrder=5
 threeColumnLayoutOrder=4
 tileLayoutGap=5
 tileLayoutInitialRotationAngle=1
@@ -195,16 +201,14 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 VirtualKeyboardEnabled=true
 
 [Windows]
-ActivationDesktopPolicy=2
 ElectricBorderMaximize=false
 ElectricBorderTiling=false
-RollOverDesktops=true
 SeparateScreenFocus=true
 
 [Windows_HDR]
 MaxFrameAverage=0
-MaxLuminance=300
-Reference=220
+MaxLuminance=1000
+Reference=350
 
 [Xwayland]
 Scale=1
