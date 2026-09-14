@@ -9,19 +9,19 @@
   <licence></licence>
   <version>v1</version>
   <rating>64</rating>
-  <downloads>12773</downloads>
+  <downloads>12935</downloads>
   <installedfile>/home/maverick/.local/share/color-schemes/One-Dark-Red.colors</installedfile>
   <installedfile>/home/maverick/.local/share/color-schemes/One-Dark-Green.colors</installedfile>
   <installedfile>/home/maverick/.local/share/color-schemes/One-Dark-Yellow.colors</installedfile>
   <installedfile>/home/maverick/.local/share/color-schemes/One-Dark-Blue.colors</installedfile>
   <id>1571635</id>
   <releasedate>2021-08-09</releasedate>
-  <summary>&lt;p>-----&lt;br />Window Decorations/Aurorae Theme: https://www.pling.com/p/1571643/&lt;br />Icons: https://www.pling.com/p/1281798&lt;br />Wallpapers: https://www.pling.com/p/1571655/&lt;br />-----&lt;br />4 dark colour schemes based on the "One Dark" colour palette!&lt;/p></summary>
+  <summary>&lt;p>-----&lt;br />Window Decorations/Aurorae Theme: &lt;a href="https://www.pling.com/p/1571643/">https://www.pling.com/p/1571643/&lt;/a>&lt;br />Icons: &lt;a href="https://www.pling.com/p/1281798">https://www.pling.com/p/1281798&lt;/a>&lt;br />Wallpapers: &lt;a href="https://www.pling.com/p/1571655/">https://www.pling.com/p/1571655/&lt;/a>&lt;br />-----&lt;br />4 dark colour schemes based on the &amp;quot;One Dark&amp;quot; colour palette!&lt;/p></summary>
   <changelog></changelog>
   <preview>https://images.pling.com/cache/770x540-4/img/00/00/60/43/39/1571635/8990b50961dff436a86fcea8e3f3f18a5b358909fd36a16b07d3fa10b9500c3cebeb.png</preview>
   <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/60/43/39/1571635/8990b50961dff436a86fcea8e3f3f18a5b358909fd36a16b07d3fa10b9500c3cebeb.png</previewBig>
   <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2Mjg1MzIyNTAiLCJvIjoiMSIsInMiOiI5NTFmYmRkZTEzNjRmMTNmZjRmZGUyYWU2OWI5NzBiNDUzZDYwMzAyODgyOWJkNWYxOTFiZTYzNGIxODQ1ZmNmM2M5NjE1MDdjNjZkZTg2NWU4MzRkZjcxODM3MzNkOGZjYzU4M2RhNGIzNmM4Y2VlZDdlMzcwMzEyYWM3ZjM0MCIsInQiOjE3MjIwMDk3MzQsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.WbiHOsCkTYkbbBVWn7MvaLqq2Gj33N4x6B6QZ6LLAbo/One-Dark.tar.gz</payload>
-  <tags>efi,kde,colorscheme,gplv3,linux,theme,unix,plasma</tags>
+  <tags>colorscheme,efi,gplv3,plasma,kde,linux,theme,unix</tags>
   <status>installed</status>
  </stuff>
  <stuff category="112">
@@ -32,16 +32,36 @@
   <licence></licence>
   <version>1.8</version>
   <rating>66</rating>
-  <downloads>52853</downloads>
+  <downloads>62366</downloads>
   <installedfile>/home/maverick/.local/share/color-schemes/MoeDark.colors</installedfile>
   <id>1378413</id>
-  <releasedate>2025-12-22</releasedate>
+  <releasedate>2026-04-07</releasedate>
   <summary>&lt;p>Moe Dark color-schemes for Moe Plasma Theme &lt;a href="https://store.kde.org/p/1284575/">https://store.kde.org/p/1284575/&lt;/a>&lt;/p></summary>
   <changelog></changelog>
   <preview>https://images.pling.com/cache/770x540-4/img/00/00/43/73/13/1378413/moedarkcolor.jpg</preview>
   <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/43/73/13/1378413/moedarkcolor.jpg</previewBig>
-  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTY5MTUzMDkxNSwibyI6IjEiLCJzIjoiMWY3ZTIwZTQ2OTZlZGRhMTI4Y2ZkNDRiNzhmNzAzM2NmZmMyOWM1ZDlmYTg5Mzc5MTc1YjZkYTc0ZTM1MDE2OWZhMTI4ZGRkMDQwOTg1YmMwYzgzOTllZDgzMzhmMWE2ZmZmNWI5NjEyZGYyOTY3OWI3YzdkYjczOTMyYjg4NTYiLCJ0IjoxNzY2NTEwODMxLCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgyLjI0In0.f6Q13O4U7eYevRSdde0CEEC1Ekl6vYZ_SvSG2jk-WmM/MoeDark.colors.tar.gz</payload>
-  <tags>theme,unix,lgplv3,linux,kde,colorscheme,plasma</tags>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTY5MTUzMDkxNSwibyI6IjEiLCJzIjoiZjYzZjJiY2Q4YmY2MTZhZjEwMWQ0NjFjNTQzMTRjNTdjMmI1YTVlODZjNDkxZmUzNDBmZTk5YWM4OTE2YTU0MTg3MzVmMzk2NDFjYTZjZjdkNjQ2MTFmZDMwNDE3MTNlOGExMzRlNzdlNTZjNTY2NmFlZmM2N2NiOTc5NDhlNTEiLCJ0IjoxNzc2Nzg4ODcxLCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgyLjE5In0.g92sc7bfJCcXNJc8uKRIc1W1n7-xLtEyy8dZZ5Na1bE/MoeDark.colors.tar.gz</payload>
+  <tags>plasma,kde,linux,lgplv3,colorscheme,theme,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="112">
+  <name>Nothing</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>jomada</author>
+  <homepage>https://store.kde.org/p/2116662</homepage>
+  <licence></licence>
+  <version>1.0</version>
+  <rating>58</rating>
+  <downloads>165160</downloads>
+  <installedfile>/home/maverick/.local/share/color-schemes/Nothing.colors</installedfile>
+  <id>2116662</id>
+  <releasedate>2026-03-21</releasedate>
+  <summary>&lt;p>Color-schemes for Nothing plasma theme.&lt;br />&lt;br />&lt;a href="https://store.kde.org/p/2116665">https://store.kde.org/p/2116665&lt;/a>&lt;br />&lt;br />Two color-schemes, one for Breeze style apps and one semi-transparency theme for Lightly.&lt;/p></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/770x540-4/img/00/00/43/73/13/2116662/color1.jpg</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/43/73/13/2116662/color1.jpg</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTcwMzU0ODcyMiwibyI6IjEiLCJzIjoiZDVkOTMyMTQzZmM2YTc0Y2EwODlkNzM4ODYzNzQ3MWZkNGU4MzFkMGQ3NDg4Yjg0Mjc0MDEwY2Q4OWM2NGQ5YmZlZWI0Zjk2YTViNDAxMGY2OTFlZjFiNDZhMmQwZmNhYzBkNTM1YmM4Y2ZlMzM0MjhjZTdhYjFjNzJlYmNkZmEiLCJ0IjoxNzc4NTI1MjQ3LCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgyLjE5In0.kq6ySqulDC5YPou17meLCeDscligcLMhcKD3Gmn9iFA/Nothing.colors.tar.gz</payload>
+  <tags>gplv3,linux,kde,plasma,unix,theme,color-schemes,colorscheme</tags>
   <status>installed</status>
  </stuff>
 </hotnewstuffregistry>

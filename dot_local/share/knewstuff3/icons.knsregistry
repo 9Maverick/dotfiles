@@ -8,18 +8,17 @@
   <homepage>https://store.kde.org/p/1541561</homepage>
   <licence></licence>
   <version>2</version>
-  <rating>76</rating>
-  <downloads>33352</downloads>
+  <rating>75</rating>
+  <downloads>46006</downloads>
   <installedfile>/home/maverick/.local/share/icons/dracula-icons-main/*</installedfile>
   <id>1541561</id>
   <releasedate>2024-05-26</releasedate>
-  <summary>&lt;p>Dark icons theme for linux desktops&lt;/p>
-</summary>
+  <summary>&lt;p>Dark icons theme for linux desktops&lt;/p></summary>
   <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/61/85/69/1541561/b165b3fd45d7046fd3717217d5e426892a272ba2d180918d5a5b24de46201469b87c.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/61/85/69/1541561/b165b3fd45d7046fd3717217d5e426892a272ba2d180918d5a5b24de46201469b87c.png</previewBig>
-  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MjQyMzYyMjIiLCJvIjoiMSIsInMiOiJlNDcwZGJhMGRiMTQzNWRjYTU4YzRmMzNkYjJlZDExYjYxMzAyZjQ5ZTVkN2JmMmNmMmRlOGQzMjgzZDgxNzg2ODE1ZDhlOWQ5NzZhOGJlOTcyODUxYTgzZDBmM2Y5YTU3YjViOTVjMmRkZjk3N2MxMjYxZTlmZmIxYTAxODg3NyIsInQiOjE3MjAxMDU4NTMsInN0ZnAiOm51bGwsInN0aXAiOiI0Ni4xNDkuODcuNzkifQ.Y3ExTVS5zS4ZUL6kA_k7cdKRVR40wzxGvBIsgsr2JJ4/main.zip</payload>
-  <tags>budgie,cinnamon,deepin,elementary,gnome,kde,lxde,lxqt,mate,xfce,gplv3,icon-theme,linux,dracula,unix,dark,original-product</tags>
+  <preview>https://images.pling.com/cache/770x540-4/img/00/00/61/85/69/1541561/b165b3fd45d7046fd3717217d5e426892a272ba2d180918d5a5b24de46201469b87c.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/61/85/69/1541561/b165b3fd45d7046fd3717217d5e426892a272ba2d180918d5a5b24de46201469b87c.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTYyNDIzNjIyMiwibyI6IjEiLCJzIjoiYmUyZTA1NzkzMjM5NTM5NTFiMzU1ZTVhYmFlNTdiOWQxYTBlNGM3NjgwZTRiN2NkODJlZDUyNTFlZGQxNDc2Y2I3ZTRiMTk3ZWMyMDcwYTEwMTNjNGFlNTBiNzgwNDcyMTJiNmI5MjBhNTA2MWZmZGFmNzhjOWY5NThkMmRhZTYiLCJ0IjoxNzgzNTIzMTY3LCJzdGZwIjpudWxsLCJzdGlwIjoiNDYuMTQ5LjgyLjE5In0.yfhfnsNSWC_65A5LHG5dvcH_iV5t21JqPydXw0WKrzQ/main.zip</payload>
+  <tags>budgie,cinnamon,deepin,elementary,gnome,kde,lxde,lxqt,mate,xfce,original-product,unix,gplv3,icon-theme,linux,dracula,dark</tags>
   <status>installed</status>
  </stuff>
 </hotnewstuffregistry>
