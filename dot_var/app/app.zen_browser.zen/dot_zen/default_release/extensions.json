@@ -26,7 +26,7 @@
       "appDisabled": false,
       "embedderDisabled": false,
       "installDate": 1740938813704,
-      "updateDate": 1763910116000,
+      "updateDate": 1780160807000,
       "applyBackgroundUpdates": "2",
       "path": "/home/maverick/.zen/default_release/extensions/{608b1b71-54d9-4606-87b6-ab2c8b48e708}.xpi",
       "skinnable": false,
@@ -72,7 +72,7 @@
     {
       "id": "jid1-MnnxcxisBPnSXQ@jetpack",
       "syncGUID": "{4b3d1f4b-110b-4644-94fd-9a3aa01f833b}",
-      "version": "2026.2.20",
+      "version": "2026.8.7",
       "type": "extension",
       "loader": null,
       "updateURL": null,
@@ -96,12 +96,12 @@
       "appDisabled": false,
       "embedderDisabled": false,
       "installDate": 1763119541224,
-      "updateDate": 1772020559341,
+      "updateDate": 1786114614790,
       "applyBackgroundUpdates": "2",
       "path": "/home/maverick/.zen/default_release/extensions/jid1-MnnxcxisBPnSXQ@jetpack.xpi",
       "skinnable": false,
-      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4700632/privacy_badger17-2026.2.20.xpi",
-      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/versions/2026.2.20/updateinfo/",
+      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4944345/privacy_badger17-2026.8.7.xpi",
+      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/versions/2026.8.7/updateinfo/",
       "softDisabled": false,
       "foreignInstall": false,
       "strictCompatibility": true,
@@ -130,17 +130,6 @@
         },
         {
           "name": "Privacy Badger",
-          "description": "Bloque les traceurs cachés. Crée par la FFÉ, OSBL de défense des droits numériques, pour empêcher les entreprises de vous espionner.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "fr"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
           "description": "A bloquear rastreadores ocultos. Criado pela EFF, uma organização sem fins lucrativos, para impedir que as empresas o espiem.",
           "creator": "privacybadger-owner@eff.org",
           "developers": null,
@@ -152,7 +141,18 @@
         },
         {
           "name": "Privacy Badger",
-          "description": "Lär sig att blockera dolda spårare. Skapad av den ideella organisationen EFF för att hindra företag från att spionera på dig.",
+          "description": "Bloque les traceurs cachés. Crée par la FFÉ, OSBL de défense des droits numériques, pour empêcher les entreprises de vous espionner.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "fr"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "Lär sig att blockera dolda spårare. Skapat av ideella EFF för att hindra företag från att spionera på dig.",
           "creator": "privacybadger-owner@eff.org",
           "developers": null,
           "translators": null,
@@ -163,13 +163,13 @@
         },
         {
           "name": "Privacy Badger",
-          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
+          "description": "Автоматично вчиться блокувати приховані трекери. Створено провідною некомерційною організацією EFF, щоб зупинити стеження за вами.",
           "creator": "privacybadger-owner@eff.org",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "cs"
+            "uk"
           ]
         },
         {
@@ -184,14 +184,14 @@
           ]
         },
         {
-          "name": "Privacy Badger",
-          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
+          "name": "«بادجر الخصوصية»",
+          "description": "تعلم بادجر الخصوصية حظر أدوات التتبع الخفية تلقائيًا. صُممته مؤسسة الجبهة الإلكترونية، وهي منظمة غير ربحية تعمل لايقاف تجسس الشركات",
           "creator": "privacybadger-owner@eff.org",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "uk"
+            "ar"
           ]
         },
         {
@@ -203,83 +203,6 @@
           "contributors": null,
           "locales": [
             "eo"
-          ]
-        },
-        {
-          "name": "«بادجر الخصوصية»",
-          "description": "تعلم بادجر الخصوصية حظر أدوات التتبع الخفية تلقائيًا. صُمم من قبل مؤسسة الجبهة الإلكترونية، منظمة غير ربحية تعمل لايقاف تجسس الشركات",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "ar"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "ko"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "Oppii estämään piiloseurannat automaattisesti. Digitaalioikeuksien puolustaja EFF:n kehittämä estämään yrityksiä vakoilemasta sinua.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "fi"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "Automatycznie uczy się blokować ukryte elementy śledzące. Dzieło organizacji non-profit EFF, aby firmy nie mogły Cię śledzić.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "pl"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "vi"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "\"Autoaprende\" a bloquear rastreadores ocultos. Creado por la ONG de derechos digitales EFF, para evitar que las empresas te espíen.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "es"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "Αποκλείει αυτόματα κρυφούς ιχνηλάτες. Δημιουργήθηκε από το μη κερδοσκοπικό ίδρυμα EFF και εμποδίζει εταιρείες να σας κατασκοπεύουν.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "el"
           ]
         },
         {
@@ -301,40 +224,18 @@
           "translators": null,
           "contributors": null,
           "locales": [
-            "pt-BR"
+            "vi"
           ]
         },
         {
           "name": "Privacy Badger",
-          "description": "自動學習封鎖隱藏的追蹤器。由領先的非營利數位權利組織電子前哨基金會製造，以阻止公司監視您。",
+          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
           "creator": "privacybadger-owner@eff.org",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "zh-TW"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "לומד באופן אוטומטי לחסום עוקבנים מוסתרים. נוצר על ידי ארגון ללא מטרות רווח מוביל EFF כדי למנוע מחברות לרגל אחריך.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "he"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "Lærer automatisk at blokere skjulte sporinger. Fra digital rettighedsnonprofit EFF for at stoppe virksomheder i at udspionere dig.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "da"
+            "hi"
           ]
         },
         {
@@ -356,7 +257,7 @@
           "translators": null,
           "contributors": null,
           "locales": [
-            "hi"
+            "gl"
           ]
         },
         {
@@ -416,6 +317,94 @@
         },
         {
           "name": "Privacy Badger",
+          "description": "Oppii estämään piiloseurannat automaattisesti. Digitaalioikeuksien puolustaja EFF:n kehittämä estämään yrityksiä vakoilemasta sinua.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "fi"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "Automatycznie uczy się blokować ukryte elementy śledzące. Dzieło organizacji non-profit EFF, aby firmy nie mogły Cię śledzić.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "pl"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "\"Autoaprende\" a bloquear rastreadores ocultos. Creado por la ONG de derechos digitales EFF, para evitar que las empresas te espíen.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "es"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "Αποκλείει αυτόματα κρυφούς ιχνηλάτες. Δημιουργήθηκε από το μη κερδοσκοπικό ίδρυμα EFF και εμποδίζει εταιρείες να σας κατασκοπεύουν.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "el"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "pt-BR"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "自動學習封鎖隱藏的追蹤器。由領先的非營利數位權利組織電子前哨基金會製造，以阻止公司監視您。",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "zh-TW"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "לומד באופן אוטומטי לחסום עוקבנים מוסתרים. נוצר על ידי ארגון ללא מטרות רווח מוביל EFF כדי למנוע מחברות לרגל אחריך.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "he"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
+          "description": "Lærer automatisk at blokere skjulte sporinger. Fra digital rettighedsnonprofit EFF for at stoppe virksomheder i at udspionere dig.",
+          "creator": "privacybadger-owner@eff.org",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "da"
+          ]
+        },
+        {
+          "name": "Privacy Badger",
           "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
           "creator": "privacybadger-owner@eff.org",
           "developers": null,
@@ -427,18 +416,7 @@
         },
         {
           "name": "Privacy Badger",
-          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
-          "creator": "privacybadger-owner@eff.org",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "gl"
-          ]
-        },
-        {
-          "name": "Privacy Badger",
-          "description": "Automatically learns to block hidden trackers. Made by leading digital rights nonprofit EFF to stop companies from spying on you.",
+          "description": "Leert om verborgen volgers te blokkeren. Gemaakt door de non-profitorganisatie EFF om te voorkomen dat bedrijven u bespioneren.",
           "creator": "privacybadger-owner@eff.org",
           "developers": null,
           "translators": null,
@@ -461,7 +439,7 @@
         2,
         1
       ],
-      "signedDate": 1772004409000,
+      "signedDate": 1786111294000,
       "seen": true,
       "dependencies": [],
       "incognito": "spanning",
@@ -867,7 +845,9 @@
           "https://www.google.cat/*",
           "http://www.google.cat/*"
         ],
-        "data_collection": []
+        "data_collection": [
+          "none"
+        ]
       },
       "optionalPermissions": {
         "permissions": [],
@@ -898,11 +878,11 @@
         "method": "amWebAPI"
       },
       "recommendationState": {
-        "validNotAfter": 1929792408000,
-        "validNotBefore": 1772004408000,
+        "validNotAfter": 1943899294000,
+        "validNotBefore": 1786111294000,
         "states": [
-          "recommended",
-          "recommended-android"
+          "recommended-android",
+          "recommended"
         ]
       },
       "rootURI": "jar:file:///home/maverick/.zen/default_release/extensions/jid1-MnnxcxisBPnSXQ@jetpack.xpi!/",
@@ -911,7 +891,7 @@
     {
       "id": "uBlock0@raymondhill.net",
       "syncGUID": "{0254b8f9-6cc5-4e49-bbd7-b36341258712}",
-      "version": "1.70.0",
+      "version": "1.74.0",
       "type": "extension",
       "loader": null,
       "updateURL": null,
@@ -935,12 +915,12 @@
       "appDisabled": false,
       "embedderDisabled": false,
       "installDate": 1763119533726,
-      "updateDate": 1773475673749,
+      "updateDate": 1787733412286,
       "applyBackgroundUpdates": 1,
       "path": "/home/maverick/.zen/default_release/extensions/uBlock0@raymondhill.net.xpi",
       "skinnable": false,
-      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4721638/ublock_origin-1.70.0.xpi",
-      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/versions/1.70.0/updateinfo/",
+      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4981431/ublock_origin-1.74.0.xpi",
+      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/versions/1.74.0/updateinfo/",
       "softDisabled": false,
       "foreignInstall": false,
       "strictCompatibility": true,
@@ -980,13 +960,13 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "మొత్తానికి RAM ఇంకా CPU పై తేలికయిన, ఒక సమర్థవంతమైన నిరోధిని.",
+          "description": "Enfin un blocador eficaç. Sollicita pauc lo CPU e la memòria",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "te"
+            "oc"
           ]
         },
         {
@@ -1002,18 +982,7 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Enfin un blocador eficaç. Sollicita pauc lo CPU e la memòria",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "oc"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "O'r diwedd, rhwystrydd effeithlon sy'n gwell ar y CPU a'r cof.",
+          "description": "O'r diwedd, rhwystrydd effeithlon sy'n well ar y CPU a'r cof.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
@@ -1035,6 +1004,17 @@
         },
         {
           "name": "uBlock Origin",
+          "description": "మొత్తానికి RAM ఇంకా CPU పై తేలికయిన, ఒక సమర్థవంతమైన నిరోధిని.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "te"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
           "description": "Einlik, in effisjinte adblocker. Brûkt hast gjin prosessorkrêft of ûnthâld.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1046,17 +1026,6 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Akhirnya, pemblokir iklan yang efisien. Ringan penggunaan CPU dan memori.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "id"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
           "description": "Най-накрая, ефективен блокер. Щадящ процесора и паметта.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1064,6 +1033,17 @@
           "contributors": null,
           "locales": [
             "bg"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Akhirnya, pemblokir iklan yang efisien. Ringan penggunaan CPU dan memori.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "id"
           ]
         },
         {
@@ -1134,7 +1114,7 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Végre egy hatékony reklám- és követésblokkoló böngészőkhöz, amely kíméletes a processzorral és a memóriával.",
+          "description": "Végre egy hatékony blokkoló, amely kíméletes a processzorral és a memóriával.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
@@ -1156,17 +1136,6 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Ефективний блокувальник реклами таки з’явився. Не навантажує процесор та пам'ять.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "uk"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
           "description": "آخر کار، ایک مؤثر اشتہار کو روکنے والا، یہ کم cpu اور میموری لیتا ہے.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1178,35 +1147,13 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Hatimaye, kizuizi kinachofaa. Nyepesi kwenye CPU na kumbukumbu.",
+          "description": "Ефективний блокувальник реклами таки з’явився. Не навантажує процесор та пам'ять.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "sw"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "Cuối cùng, đã có một công cụ chặn quảng cáo hiệu quả, tiêu tốn ít CPU và bộ nhớ.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "vi"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "අවසානයේදී, මධ්‍ය සැකසුම් ඒකකය සහ මතකය අඩුවෙන් භාවිතා කරන කාර්යක්‍ෂම අවහිරකයක් ඇත.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "si"
+            "uk"
           ]
         },
         {
@@ -1222,13 +1169,24 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "როგორც იქნა, მძლავრი და შედეგიანი რეკლამების შემზღუდავი. ზოგავს CPU-ს და მეხსიერებას.",
+          "description": "අවසානයේදී, මධ්‍ය සැකසුම් ඒකකය සහ මතකය අඩුවෙන් භාවිතා කරන කාර්යක්‍ෂම අවහිරකයක් ඇත.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "ka"
+            "si"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Hatimaye, kizuizi kinachofaa. Nyepesi kwenye CPU na kumbukumbu.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "sw"
           ]
         },
         {
@@ -1240,6 +1198,17 @@
           "contributors": null,
           "locales": [
             "ar"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "როგორც იქნა, მძლავრი და შედეგიანი რეკლამების შემზღუდავი. ზოგავს CPU-ს და მეხსიერებას.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "ka"
           ]
         },
         {
@@ -1266,13 +1235,13 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Endelig en effektiv blokkeringsutvidelse. Lavt CPU- og minnebruk.",
+          "description": "Cuối cùng, đã có một công cụ chặn quảng cáo hiệu quả, tiêu tốn ít CPU và bộ nhớ.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "no"
+            "vi"
           ]
         },
         {
@@ -1284,6 +1253,17 @@
           "contributors": null,
           "locales": [
             "lt"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Endelig en effektiv blokkeringsutvidelse. Lavt CPU- og minnebruk.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "no"
           ]
         },
         {
@@ -1310,17 +1290,6 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Axır ki, prosessor və yaddaş yükünü azaldan səmərəli bir əngəlləyici var.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "az"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
           "description": "இறுதியாக, ஒரு திறமையான விளம்பரத் தடுப்பான். கணினியின் மையச் செயற்பகுதியின் மேலும் நினைவகத்தின் மேலும் இலகுவானது.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1328,39 +1297,6 @@
           "contributors": null,
           "locales": [
             "ta"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "มาแล้ว! โปรแกรมบล็อกโฆษณาได้อย่างมีประสิทธิภาพ โดยที่ไม่กินซีพียูหรือแรม",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "th"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "Конечно, ефикасен блокер. Лесен на CPU и меморија.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "mk"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "Ein effizienter Blocker mit geringer CPU- und Speicherauslastung.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "de"
           ]
         },
         {
@@ -1376,35 +1312,35 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Finally, an efficient blocker. Easy on CPU and memory.",
+          "description": "มาแล้ว! โปรแกรมบล็อกโฆษณาได้อย่างมีประสิทธิภาพ โดยที่ไม่กินซีพียูหรือแรม",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "en-GB"
+            "th"
           ]
         },
         {
           "name": "uBlock Origin",
-          "description": "Endelig en effektiv blokkeringsutvidelse. Lavt CPU- og minnebruk.",
+          "description": "Axır ki, prosessor və yaddaş yükünü azaldan səmərəli bir əngəlləyici var.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "nb"
+            "az"
           ]
         },
         {
           "name": "uBlock Origin",
-          "description": "Ó fin, un bloqueador eficiente que non chupa toda a memoria e o procesador.",
+          "description": "Конечно, ефикасен блокер. Лесен на CPU и меморија.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "gl"
+            "mk"
           ]
         },
         {
@@ -1420,6 +1356,39 @@
         },
         {
           "name": "uBlock Origin",
+          "description": "Finally, an efficient blocker. Easy on CPU and memory.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "en-GB"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Ó fin, un bloqueador eficiente que non chupa toda a memoria e o procesador.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "gl"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Ein effizienter Blocker mit geringer CPU- und Speicherauslastung.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "de"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
           "description": "Konečne efektívny blokovač. Nezaťažuje CPU ani pamäť.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1427,6 +1396,17 @@
           "contributors": null,
           "locales": [
             "sk"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Endelig en effektiv blokkeringsutvidelse. Lavt CPU- og minnebruk.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "nb"
           ]
         },
         {
@@ -1508,17 +1488,6 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Nareszcie skuteczny bloker charakteryzujący się niskim użyciem procesora i pamięci.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "pl"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
           "description": "Končno, učinkovita, procesorju in pomnilniku prijazna razširitev za blokiranje oglasov.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1552,24 +1521,13 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Erfin, ur stanker saotradurioù efedus hag a zouj d'ho reizhiad korvoiñ ha d'ho memor.",
+          "description": "Nareszcie skuteczny bloker charakteryzujący się niskim użyciem procesora i pamięci.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "br-FR"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "Konačno, efikasan blokator. Lak na CPU i memoriji.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "hr"
+            "pl"
           ]
         },
         {
@@ -1585,6 +1543,17 @@
         },
         {
           "name": "uBlock Origin",
+          "description": "Konačno, efikasan blokator. Lak na CPU i memoriji.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "hr"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
           "description": "Վերջապե՛ս, արդյունավետ արգելափակիչ։ Խնայում է մշակիչը և հիշողությունը։",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1592,28 +1561,6 @@
           "contributors": null,
           "locales": [
             "hy"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "Жарнамаларды жақсы өшіретін Addon'дардың бірі. Компьютердің қуатың аз алады.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "kk"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "În sfârșit, un blocant eficient. Are un impact mic asupra procesorului și memoriei.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "ro"
           ]
         },
         {
@@ -1629,68 +1576,35 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Επιτέλους, ένας αποτελεσματικός blocker. Ελαφρύς για τον επεξεργαστή και τη μνήμη.",
+          "description": "Ақыры, тиімді блоктаушы. Процессор мен жадыға жеңіл.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "el"
+            "kk"
           ]
         },
         {
           "name": "uBlock Origin",
-          "description": "終於有一款高效能的封鎖工具。對 CPU 和記憶體的占用極低。",
+          "description": "Erfin, ur stanker saotradurioù efedus hag a zouj d'ho reizhiad korvoiñ ha d'ho memor.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "zh-TW"
+            "br-FR"
           ]
         },
         {
           "name": "uBlock Origin",
-          "description": "અંતે, એક કાર્યક્ષમ અવરોધક. સીપીયુ અને મેમરી પર સરળ.",
+          "description": "În sfârșit, un blocant eficient. Are un impact mic asupra procesorului și memoriei.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "gu"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "סוף סוף, חוסם יעיל. קל על המעבד והזיכרון.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "he"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "Sonunda, etkili bir engelleyici. İşlemciyi ve belleği yormaz.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "tr"
-          ]
-        },
-        {
-          "name": "uBlock Origin",
-          "description": "Endelig en effektiv blocker. Lavt CPU- og hukommelsesforbrug.",
-          "creator": "Raymond Hill & contributors",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "da"
+            "ro"
           ]
         },
         {
@@ -1706,6 +1620,17 @@
         },
         {
           "name": "uBlock Origin",
+          "description": "અંતે, એક કાર્યક્ષમ અવરોધક. સીપીયુ અને મેમરી પર સરળ.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "gu"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
           "description": "Por fin, un bloqueador eficiente con uso mínimo de procesador y memoria.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
@@ -1713,6 +1638,50 @@
           "contributors": null,
           "locales": [
             "es"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Επιτέλους, ένας αποτελεσματικός blocker. Ελαφρύς για τον επεξεργαστή και τη μνήμη.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "el"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "סוף סוף, חוסם יעיל. קל על המעבד והזיכרון.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "he"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Finalmente, um bloqueador eficiente. Com baixo uso de CPU e memória.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "pt-BR"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "終於有一款高效能的封鎖工具。對 CPU 和記憶體的占用極低。",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "zh-TW"
           ]
         },
         {
@@ -1728,13 +1697,24 @@
         },
         {
           "name": "uBlock Origin",
-          "description": "Até que enfim, um bloqueador eficiente. Bem otimizado para CPU e memória.",
+          "description": "Endelig en effektiv blocker. Lavt CPU- og hukommelsesforbrug.",
           "creator": "Raymond Hill & contributors",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "pt-BR"
+            "da"
+          ]
+        },
+        {
+          "name": "uBlock Origin",
+          "description": "Sonunda, etkili bir engelleyici. İşlemciyi ve belleği yormaz.",
+          "creator": "Raymond Hill & contributors",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "tr"
           ]
         }
       ],
@@ -1751,7 +1731,7 @@
         2,
         1
       ],
-      "signedDate": 1773407355000,
+      "signedDate": 1787665592000,
       "seen": true,
       "dependencies": [],
       "incognito": "spanning",
@@ -1855,114 +1835,20 @@
         "method": "amWebAPI"
       },
       "recommendationState": {
-        "validNotAfter": 1931195354000,
-        "validNotBefore": 1773407354000,
+        "validNotAfter": 1945453591000,
+        "validNotBefore": 1787665591000,
         "states": [
-          "recommended",
-          "recommended-android"
+          "recommended-android",
+          "recommended"
         ]
       },
       "rootURI": "jar:file:///home/maverick/.zen/default_release/extensions/uBlock0@raymondhill.net.xpi!/",
       "location": "app-profile"
     },
     {
-      "id": "webcompat@mozilla.org",
-      "syncGUID": "{d66e4ef1-83d8-47df-aa10-b204775e6c26}",
-      "version": "151.3.20260409.134825",
-      "type": "extension",
-      "loader": null,
-      "updateURL": null,
-      "installOrigins": null,
-      "manifestVersion": 2,
-      "optionsURL": null,
-      "optionsType": null,
-      "optionsBrowserStyle": true,
-      "aboutURL": null,
-      "defaultLocale": {
-        "name": "Web Compatibility Interventions",
-        "description": "Urgent post-release fixes for web compatibility.",
-        "creator": null,
-        "developers": null,
-        "translators": null,
-        "contributors": null
-      },
-      "visible": true,
-      "active": true,
-      "userDisabled": false,
-      "appDisabled": false,
-      "embedderDisabled": false,
-      "installDate": 1776880147192,
-      "updateDate": 1776880147192,
-      "applyBackgroundUpdates": 1,
-      "path": "/home/maverick/.zen/default_release/features/{d01cbab0-41ac-4601-9ca5-cea4e69da143}/webcompat@mozilla.org.xpi",
-      "skinnable": false,
-      "sourceURI": "file:///home/maverick/.var/app/app.zen_browser.zen/cache/tmp/tmpaddon",
-      "releaseNotesURI": null,
-      "softDisabled": false,
-      "foreignInstall": false,
-      "strictCompatibility": true,
-      "locales": [],
-      "targetApplications": [
-        {
-          "id": "toolkit@mozilla.org",
-          "minVersion": "102.0",
-          "maxVersion": null
-        }
-      ],
-      "targetPlatforms": [],
-      "signedState": 3,
-      "signedTypes": [
-        2,
-        1
-      ],
-      "signedDate": 1775748262000,
-      "seen": true,
-      "dependencies": [],
-      "incognito": "spanning",
-      "userPermissions": {
-        "permissions": [
-          "cookies",
-          "mozillaAddons",
-          "scripting",
-          "tabs",
-          "webNavigation",
-          "webRequest",
-          "webRequestBlocking"
-        ],
-        "origins": [
-          "<all_urls>"
-        ],
-        "data_collection": []
-      },
-      "optionalPermissions": {
-        "permissions": [],
-        "origins": [],
-        "data_collection": []
-      },
-      "requestedPermissions": {
-        "permissions": [],
-        "origins": [],
-        "data_collection": []
-      },
-      "icons": {},
-      "iconURL": null,
-      "blocklistAttentionDismissed": false,
-      "blocklistState": 0,
-      "blocklistURL": null,
-      "startupData": null,
-      "hidden": true,
-      "installTelemetryInfo": {
-        "source": "system-addon",
-        "method": "product-updates"
-      },
-      "recommendationState": null,
-      "rootURI": "jar:file:///home/maverick/.zen/default_release/features/%7Bd01cbab0-41ac-4601-9ca5-cea4e69da143%7D/webcompat@mozilla.org.xpi!/",
-      "location": "app-system-addons"
-    },
-    {
       "id": "78272b6fa58f4a1abaac99321d503a20@proton.me",
       "syncGUID": "{46298c8b-89ee-44e9-8dcc-d38796f58f6e}",
-      "version": "1.36.1",
+      "version": "1.38.0",
       "type": "extension",
       "loader": null,
       "updateURL": null,
@@ -1986,12 +1872,12 @@
       "appDisabled": false,
       "embedderDisabled": false,
       "installDate": 1763119731177,
-      "updateDate": 1777052956932,
+      "updateDate": 1787851323349,
       "applyBackgroundUpdates": 1,
       "path": "/home/maverick/.zen/default_release/extensions/78272b6fa58f4a1abaac99321d503a20@proton.me.xpi",
       "skinnable": false,
-      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4768005/proton_pass-1.36.1.xpi",
-      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/proton-pass/versions/1.36.1/updateinfo/",
+      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4885390/proton_pass-1.38.0.xpi",
+      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/proton-pass/versions/1.38.0/updateinfo/",
       "softDisabled": false,
       "foreignInstall": false,
       "strictCompatibility": true,
@@ -2009,7 +1895,7 @@
         2,
         1
       ],
-      "signedDate": 1777025290000,
+      "signedDate": 1783940419000,
       "seen": true,
       "dependencies": [],
       "incognito": "spanning",
@@ -2032,7 +1918,8 @@
           "privacy",
           "webRequestAuthProvider",
           "clipboardRead",
-          "clipboardWrite"
+          "clipboardWrite",
+          "nativeMessaging"
         ],
         "origins": [
           "https://*/*",
@@ -2076,7 +1963,7 @@
     {
       "id": "addon@darkreader.org",
       "syncGUID": "{13fe4f60-c19e-4117-a8ab-cd36af210f1a}",
-      "version": "4.9.125",
+      "version": "4.9.130",
       "type": "extension",
       "loader": null,
       "updateURL": null,
@@ -2100,12 +1987,12 @@
       "appDisabled": false,
       "embedderDisabled": false,
       "installDate": 1763119458126,
-      "updateDate": 1778090355070,
+      "updateDate": 1788291025803,
       "applyBackgroundUpdates": 1,
       "path": "/home/maverick/.zen/default_release/extensions/addon@darkreader.org.xpi",
       "skinnable": false,
-      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4783321/darkreader-4.9.125.xpi",
-      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/versions/4.9.125/updateinfo/",
+      "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/4998573/darkreader-4.9.130.xpi",
+      "releaseNotesURI": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/versions/4.9.130/updateinfo/",
       "softDisabled": false,
       "foreignInstall": false,
       "strictCompatibility": true,
@@ -2134,17 +2021,6 @@
         },
         {
           "name": "Dark Reader",
-          "description": "Tema escuro para todos os websites. Cuide dos seus olhos, use o Dark Reader para navegação noturna e diária.",
-          "creator": "Alexander Shutau",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "pt-PT"
-          ]
-        },
-        {
-          "name": "Dark Reader",
           "description": "ప్రతి వెబ్‌సైట్‌కి ముదురు థీమ్. మీ కళ్లను కాపాడుకోండి, రాత్రి మరియు పగలు బ్రౌజింగ్ట్‌కి ముదురు థీమ్ ఉపయోగించండి.",
           "creator": "Alexander Shutau",
           "developers": null,
@@ -2152,6 +2028,17 @@
           "contributors": null,
           "locales": [
             "te"
+          ]
+        },
+        {
+          "name": "Dark Reader",
+          "description": "Tema escuro para todos os websites. Cuide dos seus olhos, use o Dark Reader para navegação noturna e diária.",
+          "creator": "Alexander Shutau",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "pt-PT"
           ]
         },
         {
@@ -2233,28 +2120,6 @@
         },
         {
           "name": "Dark Reader",
-          "description": "Темний вигляд для кожного мережевого сайту. Піклуйтеся про свої очі, використовуйте темний вид для нічного та щоденного перегляду.",
-          "creator": "Alexander Shutau",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "uk"
-          ]
-        },
-        {
-          "name": "Dark Reader",
-          "description": "Chế độ tối cho mọi trang web. Bảo vệ đôi mắt của bạn, sử dụng khi duyệt web vào ban đêm và hàng ngày.",
-          "creator": "Alexander Shutau",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "vi"
-          ]
-        },
-        {
-          "name": "Dark Reader",
           "description": "සියළුම අඩවි සදහා අඳුරු ප්‍රකාරය. ඔබගේ නෙත් රැකගන්න, රාත්‍රී සහ දිවා කාලයේ දී වියමන අඩවි පිරික්සීමට අඳුරු තේමාව භාවිතා කරන්න.",
           "creator": "Alexander Shutau",
           "developers": null,
@@ -2262,6 +2127,17 @@
           "contributors": null,
           "locales": [
             "si"
+          ]
+        },
+        {
+          "name": "Dark Reader",
+          "description": "Темний вигляд для кожного мережевого сайту. Піклуйтеся про свої очі, використовуйте темний вид для нічного та щоденного перегляду.",
+          "creator": "Alexander Shutau",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "uk"
           ]
         },
         {
@@ -2284,6 +2160,17 @@
           "contributors": null,
           "locales": [
             "ko"
+          ]
+        },
+        {
+          "name": "Dark Reader",
+          "description": "Chế độ tối cho mọi trang web. Bảo vệ đôi mắt của bạn, sử dụng khi duyệt web vào ban đêm và hàng ngày.",
+          "creator": "Alexander Shutau",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "vi"
           ]
         },
         {
@@ -2354,17 +2241,6 @@
         },
         {
           "name": "Dark Reader",
-          "description": "Tmavý režim pre každú stránku. Šetrite svoje oči a používajte tmavý motív po celý deň.",
-          "creator": "Alexander Shutau",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "sk"
-          ]
-        },
-        {
-          "name": "Dark Reader",
           "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
           "creator": "Alexander Shutau",
           "developers": null,
@@ -2376,13 +2252,13 @@
         },
         {
           "name": "Dark Reader",
-          "description": "Тамни режим за сваки сајт. Пазите на своје очи, користите тамну тему дању и ноћу.",
+          "description": "Tmavý režim pre každú stránku. Šetrite svoje oči a používajte tmavý motív po celý deň.",
           "creator": "Alexander Shutau",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "sr"
+            "sk"
           ]
         },
         {
@@ -2394,6 +2270,17 @@
           "contributors": null,
           "locales": [
             "fa"
+          ]
+        },
+        {
+          "name": "Dark Reader",
+          "description": "Тамни режим за сваки сајт. Пазите на своје очи, користите тамну тему дању и ноћу.",
+          "creator": "Alexander Shutau",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "sr"
           ]
         },
         {
@@ -2431,17 +2318,6 @@
         },
         {
           "name": "Dark Reader",
-          "description": "Pozwala na korzystanie z trybu ciemnego na każdej stronie internetowej. Zadbaj o swój wzrok, używając ciemnego motywu do przeglądania w dzień i w nocy.",
-          "creator": "Alexander Shutau",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "pl"
-          ]
-        },
-        {
-          "name": "Dark Reader",
           "description": "Mørk tilstand for alle hjemmesider. Beskyt dine øjne og brug mørke temaer for browsing on dagen og natten.",
           "creator": "Alexander Shutau",
           "developers": null,
@@ -2449,6 +2325,17 @@
           "contributors": null,
           "locales": [
             "da-DK"
+          ]
+        },
+        {
+          "name": "Dark Reader",
+          "description": "Pozwala na korzystanie z trybu ciemnego na każdej stronie internetowej. Zadbaj o swój wzrok, używając ciemnego motywu do przeglądania w dzień i w nocy.",
+          "creator": "Alexander Shutau",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "pl"
           ]
         },
         {
@@ -2475,6 +2362,17 @@
         },
         {
           "name": "Dark Reader",
+          "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
+          "creator": "Alexander Shutau",
+          "developers": null,
+          "translators": null,
+          "contributors": null,
+          "locales": [
+            "en-US"
+          ]
+        },
+        {
+          "name": "Dark Reader",
           "description": "Temă întunecată pentru orice site. Ai grijă de ochii tăi, folosește Dark Reader pentru cititul noaptea și de zi cu zi.",
           "creator": "Alexander Shutau",
           "developers": null,
@@ -2486,13 +2384,13 @@
         },
         {
           "name": "Dark Reader",
-          "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
+          "description": "Σκούρα εμφάνιση για όλες τις ιστοσελίδες. Φροντίστε τα μάτια σας κάνοντας χρήση σκούρας εμφάνισης στο καθημερινό σας σερφάρισμα.",
           "creator": "Alexander Shutau",
           "developers": null,
           "translators": null,
           "contributors": null,
           "locales": [
-            "en-US"
+            "el"
           ]
         },
         {
@@ -2515,17 +2413,6 @@
           "contributors": null,
           "locales": [
             "pt-BR"
-          ]
-        },
-        {
-          "name": "Dark Reader",
-          "description": "Σκούρα εμφάνιση για όλες τις ιστοσελίδες. Φροντίστε τα μάτια σας κάνοντας χρήση σκούρας εμφάνισης στο καθημερινό σας σερφάρισμα.",
-          "creator": "Alexander Shutau",
-          "developers": null,
-          "translators": null,
-          "contributors": null,
-          "locales": [
-            "el"
           ]
         },
         {
@@ -2586,7 +2473,7 @@
         2,
         1
       ],
-      "signedDate": 1778068525000,
+      "signedDate": 1788285112000,
       "seen": true,
       "dependencies": [],
       "incognito": "spanning",
@@ -2630,11 +2517,11 @@
         "method": "amWebAPI"
       },
       "recommendationState": {
-        "validNotAfter": 1935856525000,
-        "validNotBefore": 1778068525000,
+        "validNotAfter": 1946073112000,
+        "validNotBefore": 1788285112000,
         "states": [
-          "recommended",
-          "recommended-android"
+          "recommended-android",
+          "recommended"
         ]
       },
       "rootURI": "jar:file:///home/maverick/.zen/default_release/extensions/addon@darkreader.org.xpi!/",
@@ -2870,7 +2757,7 @@
     {
       "id": "webcompat@mozilla.org",
       "syncGUID": "{8f9bcf7b-482c-4524-bb14-bc58ab1c4437}",
-      "version": "150.10.0",
+      "version": "155.5.0",
       "type": "extension",
       "loader": null,
       "updateURL": null,
@@ -2888,8 +2775,8 @@
         "translators": null,
         "contributors": null
       },
-      "visible": false,
-      "active": false,
+      "visible": true,
+      "active": true,
       "userDisabled": false,
       "appDisabled": false,
       "embedderDisabled": false,
@@ -2944,7 +2831,298 @@
       "blocklistAttentionDismissed": false,
       "blocklistState": 0,
       "blocklistURL": null,
-      "startupData": null,
+      "startupData": {
+        "persistentListeners": {
+          "webRequest": {
+            "onBeforeRequest": [
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "https://www.toei-anim.co.jp/_next/static/chunks/585-*.js"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking"
+                ]
+              ],
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "*://www.rogers.com/bbapp/bbapi.js*",
+                    "*://www.fido.ca/bbapp/bbapi.js*"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking"
+                ]
+              ],
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "*://ipn2.paymentus.com/rotp/vatx"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking"
+                ]
+              ]
+            ],
+            "onBeforeSendHeaders": [
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "*://www.payback.de/*"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking",
+                  "requestHeaders"
+                ]
+              ],
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "*://www.payback.de/*"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking",
+                  "requestHeaders"
+                ]
+              ],
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "*://www.payback.de/*"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking",
+                  "requestHeaders"
+                ]
+              ],
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "*://www.payback.de/*"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking",
+                  "requestHeaders"
+                ]
+              ],
+              [
+                {
+                  "incognito": null,
+                  "tabId": null,
+                  "types": null,
+                  "urls": [
+                    "https://www.mobilesuica.com/*",
+                    "*://*.bancosantander.es/*",
+                    "*://*.gruposantander.es/*",
+                    "*://*.santander.co.uk/*",
+                    "*://*.directv.com/*",
+                    "*://*.mms.telekom.de/*",
+                    "*://wifi.sncf/*",
+                    "*://ubank.com.au/*",
+                    "*://411.ca/",
+                    "*://*.unitedwifi.com/*",
+                    "*://*.clipchamp.com/*",
+                    "*://*.elearning.dmv.ca.gov/*",
+                    "*://*.avizia.com/*",
+                    "*://*.snapchat.com/*",
+                    "*://*.dingtalk.com/*",
+                    "*://hackgreensdr.org/*",
+                    "*://websdr.78dx.ru/*",
+                    "*://login.seb.lt/ui/*",
+                    "*://my.rhinoshield.fr/*",
+                    "*://app.homewyse.com/*",
+                    "*://*.gmbinder.com/*",
+                    "*://app.libry.jp/*",
+                    "*://indigo.shireburn.com/*",
+                    "*://*.remotasks.com/*",
+                    "*://forms.ontariodrugbenefit.ca/*",
+                    "*://www.smartmirror.link/*",
+                    "*://sekowf.wns.com/*",
+                    "*://*.bmo.com/main/personal/*/getting-started/*",
+                    "*://trade-in.vodafone.com/*",
+                    "*://hrmis2.eghrmis.gov.my/*",
+                    "*://facturador.afip.gob.ar/*",
+                    "*://account.gov.il/*",
+                    "*://tza.red/*",
+                    "*://mysunlife.sunlife.com.hk/ClientAppWeb/*",
+                    "*://app.stormx.io/*",
+                    "*://www.goodyearfiaetrc.com/standings*",
+                    "*://conference.amwell.com/*",
+                    "*://www.smartgpseco.com/*",
+                    "*://events.webinar.ru/*",
+                    "*://carelink.minimed.eu/*",
+                    "*://onp.cloud.waterloo.ca/*",
+                    "*://my.murj.com/*",
+                    "*://*.oirsa.org/*",
+                    "*://england.nhs.attendanywhere.com/*",
+                    "*://watch.tonton.com.my/*",
+                    "*://gts-pro.iyuno.com/*",
+                    "*://*.prudential.com.hk/*",
+                    "*://*.mymsc.com/*",
+                    "*://*.oculus.com/cast*",
+                    "*://horizon.meta.com/casting*",
+                    "*://bcbs.pinpointglobal.com/*",
+                    "*://watch.indee.tv/*",
+                    "*://*.onvue.com/*",
+                    "*://*.bankmandiri.co.id/*",
+                    "*://wbte.drcedirect.com/*",
+                    "*://*.admissions.nid.edu/*",
+                    "*://app.bookcreator.com/*",
+                    "*://game.granbluefantasy.jp/*",
+                    "*://passpoint.boingo.com/*",
+                    "*://selecionases.saude.pe.gov.br/*",
+                    "*://ct-tc.apps.cic.gc.ca/*",
+                    "*://seller.kuajingmaihuo.com/*",
+                    "*://flash.puffin.com/store/*",
+                    "*://store.91app.com/*",
+                    "*://app.rnova.org/*",
+                    "*://www.clinicaonline.co.il/*",
+                    "*://www.e-src.net/*",
+                    "*://sales-crowd.jp/*",
+                    "*://musicstore.auone.jp/*",
+                    "*://pss.perodua.com.my/*",
+                    "*://mgr.knowbe.jp/*",
+                    "*://agent.foundi.info/*",
+                    "*://esampark.wondercement.com/*",
+                    "*://ibanka.seb.lv/*login*",
+                    "*://e.seb.ee/*",
+                    "*://www.hilokal.com/*",
+                    "*://onvideo.kuaishou.com/*",
+                    "*://www.vpropel.in/*",
+                    "*://*.coupangplay.com/*",
+                    "*://stage.metareal.com/*",
+                    "*://workhub.transcribeme.com/*",
+                    "*://*.thepersonal.com/*",
+                    "*://*.lapersonnelle.com/*",
+                    "*://*.desjardinsgeneralinsurance.com/*",
+                    "*://be.bim.mx/*",
+                    "*://englishtest.duolingo.com/*",
+                    "*://ads.tiktok.com/*",
+                    "*://mp3cut.net/*",
+                    "*://app.gather.town/*",
+                    "*://viewer-ebook.books.com.tw/*",
+                    "*://steamcommunity.com/chat*",
+                    "https://watch.sling.com/*",
+                    "*://atracker.pro/*",
+                    "*://playlist-manager.com/*",
+                    "*://watch.foxtel.com.au/app/*",
+                    "*://xmgl.ccccltd.cn/*",
+                    "*://*.class.com/*",
+                    "*://*.blackboard.com/*",
+                    "*://*.bbcollab.com/*",
+                    "https://cotota.app/*",
+                    "https://h2breeze.com/*",
+                    "https://is-sets.com/*",
+                    "*://confetti.buzz/*",
+                    "*://eu-trade.naeu.playblackdesert.com/*",
+                    "*://myassurity.com/*",
+                    "*://*.ipmph.com/*",
+                    "*://contractorinduction.colesgroup.com.au/*",
+                    "*://iwebv2.thebankersbank.com/*",
+                    "*://app.phase.com/*",
+                    "*://oasis.decart.ai/*",
+                    "*://next.goalplan.com/*",
+                    "*://www.tiktok.com/tiktokstudio*",
+                    "*://app.fullcodemedical.com/Player/*",
+                    "*://testbook.com/*/lesson/*",
+                    "*://www.paypal.com/myaccount/security/*",
+                    "*://*.arenti.net/*",
+                    "*://*.aylak.com/*",
+                    "*://*.formula1.com/*",
+                    "*://sus.softadmin.se/*",
+                    "*://byod.airindia.com/*",
+                    "*://slc-ut-us.avolvecloud.com/*",
+                    "*://*.advancedmd.com/*",
+                    "*://midi.city/*",
+                    "*://cesupils.lv/*",
+                    "*://go.idnow.de/*",
+                    "*://cmyportal.tkc.co.jp/auth/*",
+                    "*://app.simplenote.com/*",
+                    "*://*.truepicvision.com/*",
+                    "*://daotranslate.com/*",
+                    "*://www.fxnetworkspressroom.com/*",
+                    "*://labs-aws.popcap.com/facebook/bj2/*",
+                    "*://*.useinsider.com/*",
+                    "*://*.ehssrisk.com/*",
+                    "*://portal.pilot.ly/*",
+                    "*://pwa.samsungglobalgoals.com/*",
+                    "*://*.larksuite.com/*",
+                    "*://bbs.colg.cn/*",
+                    "*://chatbot.weixin.qq.com/webapp/*",
+                    "*://paybill.com/occourts/*",
+                    "*://otr.oregon.gov/*",
+                    "https://hrd.rda.go.kr/ehrd_front/myClass/study/startNavStdContent.do*",
+                    "*://www.4gamer.net/*",
+                    "*://tibi.monconteneur.be/*",
+                    "*://javalab.org/*potential_energy_by_gravity*",
+                    "*://cloudplay.jiogames.com/*",
+                    "*://www.showroom-live.com/*",
+                    "*://gueval2.digimoolyankan.com/*",
+                    "*://form.cellosign.co/*",
+                    "*://sirhus.dsi.cnrs.fr/*",
+                    "*://ncvtmis.gov.in/*",
+                    "*://mms.pinduoduo.com/*",
+                    "*://ftiunpam.com/*",
+                    "*://mz-denmark.eu5.alta.avigilon.com/*",
+                    "*://*.hallway.ai/*",
+                    "*://digital.alinmacapital.com/*",
+                    "*://global.playtoa.com/*",
+                    "*://las.cnas.org.cn/*",
+                    "*://nailsolutionplus.firebaseapp.com/*",
+                    "*://www.payback.de/*",
+                    "*://gofilee.com/*",
+                    "*://www.bateaux.com/contact/redaction*",
+                    "*://waimaie.meituan.com/*",
+                    "*://*.middleboroughpolice.com/*",
+                    "*://my.younify.tv/services/*",
+                    "*://fwicloud.com/*"
+                  ],
+                  "windowId": null
+                },
+                [
+                  "blocking",
+                  "requestHeaders"
+                ]
+              ]
+            ]
+          }
+        }
+      },
       "hidden": true,
       "installTelemetryInfo": null,
       "recommendationState": null,
@@ -2954,7 +3132,7 @@
     {
       "id": "newtab@mozilla.org",
       "syncGUID": "{0a426b06-7091-46c7-add2-4c6e6e268c51}",
-      "version": "150.3.0",
+      "version": "155.2.0",
       "type": "extension",
       "loader": null,
       "updateURL": null,
@@ -3028,7 +3206,7 @@
     {
       "id": "ipp-activator@mozilla.com",
       "syncGUID": "{f5878e47-b4b4-4d8b-a38d-72d2f085e30a}",
-      "version": "0.1",
+      "version": "0.3",
       "type": "extension",
       "loader": null,
       "updateURL": null,
@@ -3103,82 +3281,6 @@
       "installTelemetryInfo": null,
       "recommendationState": null,
       "rootURI": "resource://builtin-addons/ipp-activator/",
-      "location": "app-builtin-addons"
-    },
-    {
-      "id": "data-leak-blocker@mozilla.com",
-      "syncGUID": "{a13bdf58-e088-4213-9920-f6ee320d0042}",
-      "version": "144.0.0",
-      "type": "extension",
-      "loader": null,
-      "updateURL": null,
-      "installOrigins": null,
-      "manifestVersion": 2,
-      "optionsURL": null,
-      "optionsType": null,
-      "optionsBrowserStyle": true,
-      "aboutURL": null,
-      "defaultLocale": {
-        "name": "Data Leak Blocker",
-        "description": "",
-        "creator": null,
-        "developers": null,
-        "translators": null,
-        "contributors": null
-      },
-      "visible": true,
-      "active": true,
-      "userDisabled": false,
-      "appDisabled": false,
-      "embedderDisabled": false,
-      "applyBackgroundUpdates": 1,
-      "path": null,
-      "skinnable": false,
-      "sourceURI": null,
-      "releaseNotesURI": null,
-      "softDisabled": false,
-      "foreignInstall": false,
-      "strictCompatibility": true,
-      "locales": [],
-      "targetApplications": [
-        {
-          "id": "toolkit@mozilla.org",
-          "minVersion": "139.0",
-          "maxVersion": null
-        }
-      ],
-      "targetPlatforms": [],
-      "signedDate": null,
-      "seen": true,
-      "dependencies": [],
-      "incognito": "spanning",
-      "userPermissions": {
-        "permissions": [
-          "mozillaAddons"
-        ],
-        "origins": [],
-        "data_collection": []
-      },
-      "optionalPermissions": {
-        "permissions": [],
-        "origins": [],
-        "data_collection": []
-      },
-      "requestedPermissions": {
-        "permissions": [],
-        "origins": [],
-        "data_collection": []
-      },
-      "icons": {},
-      "iconURL": null,
-      "blocklistAttentionDismissed": false,
-      "blocklistState": 0,
-      "blocklistURL": null,
-      "startupData": {},
-      "hidden": true,
-      "installTelemetryInfo": null,
-      "recommendationState": null,
-      "rootURI": "resource://builtin-addons/data-leak-blocker/",
       "location": "app-builtin-addons"
     },
     {
@@ -3457,7 +3559,7 @@
     {
       "id": "firefox-alpenglow@mozilla.org",
       "syncGUID": "{4174e35c-b2db-48f2-bf5c-064745cdef06}",
-      "version": "1.5.2",
+      "version": "1.5.3",
       "type": "theme",
       "loader": null,
       "updateURL": null,

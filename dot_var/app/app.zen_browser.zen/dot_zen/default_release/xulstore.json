@@ -4,7 +4,7 @@
       "style": ""
     },
     "navigator-toolbox": {
-      "style": "width: 374px; max-width: 500px; --actual-zen-sidebar-width: 5px; --zen-sidebar-width: 5px;",
+      "style": "width: 374px; max-width: 500px; --actual-zen-sidebar-width: 395px; --zen-sidebar-width: 374px;",
       "width": "374px"
     },
     "main-window": {
@@ -64,8 +64,8 @@
     "picture-in-picture": {
       "left": "0",
       "top": "0",
-      "width": "1920",
-      "height": "1080"
+      "width": "956",
+      "height": "538"
     }
   },
   "chrome://devtools/content/webconsole/index.html": {
@@ -75,6 +75,26 @@
       "width": "778",
       "height": "1074",
       "sizemode": "normal"
+    }
+  },
+  "chrome://pippki/content/certManager.xhtml": {
+    "certmanagertabs": {
+      "selectedIndex": "4"
+    },
+    "certcol": {
+      "ordinal": "1"
+    },
+    "tokencol": {
+      "ordinal": "3"
+    },
+    "serialnumcol": {
+      "ordinal": "5"
+    },
+    "issuedcol": {
+      "ordinal": "7"
+    },
+    "expiredcol": {
+      "ordinal": "9"
     }
   }
 }
